@@ -1,4 +1,10 @@
 function sm_drivin() {
-	song = file_text_open_read("drivin.txt"); 
-	return file_text_read_string(song);
+	var songfile = file_text_open_read("drivin.txt");
+	var songtxt = "";
+	while (!file_text_eof(songfile)) {
+		songtxt = songtxt + file_text_readln(songfile) + "\n";
+	}
+	file_text_close(songfile);
+	log(songtxt);
+	return songtxt;
 }

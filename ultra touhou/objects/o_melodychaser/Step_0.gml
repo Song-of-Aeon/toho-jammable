@@ -31,9 +31,6 @@ if !danced {
 if songstarting {
     timecounter += delta_time;
     if timecounter/1000 >= offset {
-        if count = 0 {
-            instance_create(800, 500, o_zero);
-        }
         count += global.truetime;
     }
     
@@ -92,18 +89,9 @@ if hp > 12 {
 infoalpha -= .03;
 infoalpha = clamp(infoalpha, 0, 4);
 
-if !instance_exists(o_note) && instance_exists(o_smparser) {
+if !instance_exists(o_note) && danced {
     countwo++;
     console_log("it's rude to talk about someone who's listening.");
-}
-
-if back && !instance_exists(o_leaving) {
-    back = false;
-    instance_create(room_width/2, room_height/2, o_leaving);
-}
-
-if (back && !instance_exists(o_fao)) || (select && global.controller = true && count > 1) || (hp < 1) || countwo >= 300 { //ha
-    c_savetwo();
 }
 if global.controller {
     gamepad_set_vibration(0, rumble[0]+rumble[1]/1.5+rumble[2]/2.5, rumble[3]+rumble[2]/1.5+rumble[1]/2.5);

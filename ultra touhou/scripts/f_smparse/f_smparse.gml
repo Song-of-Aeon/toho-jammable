@@ -1,13 +1,15 @@
 function f_smparse(thesong) {
 	script_execute(thesong);
-	c_noteskins();
-	c_inputwocreate();
+	global.red = s_when_the_im;
+	global.blue = s_when_the_im;
+	global.purple = s_when_the_im;
+	
+	mainstickstate = array_create(4);
+	cstickstate = array_create(4);
 
 	position = 0;
 	reader = "";
 	title = "";
-	bpm1 = "";
-	bpm2 = "";
 	mode = "metadata";
 	measure = 0;
 	measurelength = 0;
@@ -15,14 +17,15 @@ function f_smparse(thesong) {
 	arraypos = 0;
 	xmod = global.xmod;
 	if global.mmod != 0 {
-	    c_mmod(bpm);
+	    xmod = global.mmod*3/bpm;
+		global.xmod = global.mmod*3/bpm;
+
 	}
-	notelist = "";
 	notecount = 0;
 	entermeasure = 0;
 	endmeasure = 0;
 	measuredifference = 0;
-	notecolour = s_dark;
+	//notecolour = s_dark;
 	lastmeasurelength = 0;
 	amount = 0;
 	placer = 0;
@@ -30,12 +33,10 @@ function f_smparse(thesong) {
 	freezed = 0;
 	freezeu = 0;
 	freezer = 0;
-	lanes = MELODYCHASER.lanes;
-	savelanespacing = MELODYCHASER.lanespacing;
-	if global.gimmickactive = false {
-	    savelanespacing = 0;
-    
-	}
+	lanes = o_melodychaser.lanes;
+	log("lol");
+	log(song);
+	log("lol");
 
 	while position <= string_length(song) {
 	    if mode = "metadata" {
@@ -100,7 +101,7 @@ function f_smparse(thesong) {
 	//console_log(array_length_1d(noteset));
 
 	var i;
-	for (i=0; i<array_length_1d(noteset); i++) {
+	for (i=0; i<array_length(noteset); i++) {
 	    notemaker[0] = real(string_char_at(noteset[i], 1));
 	    notemaker[1] = real(string_char_at(noteset[i], 2));
 	    notemaker[2] = real(string_char_at(noteset[i], 3));
@@ -123,7 +124,7 @@ function f_smparse(thesong) {
 	        }
 	        switch notemaker[j] {
 	            case 0:
-	                notemaker[j] = object0;
+	                notemaker[j] = o_null;
 	                break;
 	            case 1:
 	                notemaker[j] = o_note;
@@ -137,25 +138,13 @@ function f_smparse(thesong) {
 	            case 4:
 	                notemaker[j] = o_roll;
 	                break;
-	            case 5:
-	                notemaker[j] = o_mine;
-	                break;
-	            case 6:
-	                notemaker[j] = o_naturalend; //used to be o_switch
-	                break;
-	            case 7:
-	                notemaker[j] = o_gimmickactivator; //used to be o_switchback
-	                break;
-	            case 8:
-	                notemaker[j] = o_gimmickactivator;
-	                break;
             
 	        }
 	    }
-	    if notemaker[j] != object0 {
-	        f_notecolouring(notemaker[9])
+	    if notemaker[j] != o_null {
+	        f_notecolouring(notemaker[9]);
         
-	        with instance_create(MELODYCHASER.laneleft, placer*32*xmod+MELODYCHASER.bar, notemaker[0]) {
+	        with instance_create(o_melodychaser.laneleft, placer*32*xmod+o_melodychaser.bar, notemaker[0]) {
 	            dir = 0;
 	            vspd = -(other.bpm/c_bpmbuster())*other.xmod;
 	            y -= vspd*60;
@@ -170,7 +159,7 @@ function f_smparse(thesong) {
 	                }
 	            }
 	        }
-	        with instance_create(MELODYCHASER.lanedown, placer*32*xmod+MELODYCHASER.bar, notemaker[1]) {
+	        with instance_create(o_melodychaser.lanedown, placer*32*xmod+o_melodychaser.bar, notemaker[1]) {
 	            dir = 1;
 	            vspd = -(other.bpm/c_bpmbuster())*other.xmod;
 	            y -= vspd*60;
@@ -185,7 +174,7 @@ function f_smparse(thesong) {
 	                }
 	            }
 	        }
-	        with instance_create(MELODYCHASER.laneup, placer*32*xmod+MELODYCHASER.bar, notemaker[2]) {
+	        with instance_create(o_melodychaser.laneup, placer*32*xmod+o_melodychaser.bar, notemaker[2]) {
 	            dir = 2;
 	            vspd = -(other.bpm/c_bpmbuster())*other.xmod;
 	            y -= vspd*60;
@@ -200,7 +189,7 @@ function f_smparse(thesong) {
 	                }
 	            }
 	        }
-	        with instance_create(MELODYCHASER.laneright, placer*32*xmod+MELODYCHASER.bar, notemaker[3]) {
+	        with instance_create(o_melodychaser.laneright, placer*32*xmod+o_melodychaser.bar, notemaker[3]) {
 	            dir = 3;
 	            vspd = -(other.bpm/c_bpmbuster())*other.xmod;
 	            y -= vspd*60;
@@ -215,86 +204,10 @@ function f_smparse(thesong) {
 	                }
 	            }
 	        }
-	        //four extra
-	        if lanes = 8 {
-	            with instance_create(MELODYCHASER.laneleftwo, placer*32*xmod+MELODYCHASER.bar, notemaker[4]) {
-	                dir = 0;
-	                vspd = -(other.bpm/c_bpmbuster())*other.xmod;
-	                y -= vspd*60;
-	                sprite_index = other.notecolour;
-	                image_xscale = global.mini;
-	                image_yscale = global.mini;
-	                if object_index = o_freeze || object_index = o_roll {
-	                    other.freezel = id;
-	                } else if object_index = o_tail {
-	                    with other.freezel {
-	                        tail = other.id;
-	                    }
-	                }
-	            }
-	            with instance_create(MELODYCHASER.lanedowntwo, placer*32*xmod+MELODYCHASER.bar, notemaker[5]) {
-	                dir = 1;
-	                vspd = -(other.bpm/c_bpmbuster())*other.xmod;
-	                //y -= vspd*60;
-	                y -= vspd*60;
-	                sprite_index = other.notecolour;
-	                image_xscale = global.mini;
-	                image_yscale = global.mini;
-	                if object_index = o_freeze || object_index = o_roll {
-	                    other.freezed = id;
-	                } else if object_index = o_tail {
-	                    with other.freezed {
-	                        tail = other.id;
-	                    }
-	                }
-	            }
-	            with instance_create(MELODYCHASER.laneuptwo, placer*32*xmod+MELODYCHASER.bar, notemaker[6]) {
-	                dir = 2;
-	                vspd = -(other.bpm/c_bpmbuster())*other.xmod;
-	                y -= vspd*60;
-	                sprite_index = other.notecolour;
-	                image_xscale = global.mini;
-	                image_yscale = global.mini;
-	                if object_index = o_freeze || object_index = o_roll {
-	                    other.freezeu = id;
-	                } else if object_index = o_tail {
-	                    with other.freezeu {
-	                        tail = other.id;
-	                    }
-	                }
-	            }
-	            with instance_create(MELODYCHASER.lanerightwo, placer*32*xmod+MELODYCHASER.bar, notemaker[7]) {
-	                dir = 3;
-	                vspd = -(other.bpm/c_bpmbuster())*other.xmod;
-	                y -= vspd*60;
-	                sprite_index = other.notecolour;
-	                image_xscale = global.mini;
-	                image_yscale = global.mini;
-	                if object_index = o_freeze || object_index = o_roll {
-	                    other.freezer = id;
-	                } else if object_index = o_tail {
-	                    with other.freezer {
-	                        tail = other.id;
-	                    }
-	                }
-	            }
-	        }
 	    }
 	    placer += 1/notemaker[9];
 	    amount += 1;
-	    //i*(32/notemaker[9])*xmod+MELODYCHASER.bar
-	    //((i*32)-i+(i/(amount/notemaker[9])))
 	}
-
-	/*var n;
-	for (n=0;n<array_length_1d(noteset);n++) {
-	    console_log(noteset[n]);
-	}*/
-	//console_log(instance_number(o_note));
-	MELODYCHASER.notecount = instance_number(o_note);
-	/*MELODYCHASER.notecount += instance_number(o_freeze);
-	MELODYCHASER.notecount += instance_number(o_roll);*/
-	MELODYCHASER.notecount -= instance_number(o_mine);
-	MELODYCHASER.notecount -= instance_number(o_switch);
-	MELODYCHASER.notecount += instance_number(o_tail)/5;
+	o_melodychaser.notecount = instance_number(o_note);
+	o_melodychaser.notecount += instance_number(o_tail)/5;
 }

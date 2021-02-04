@@ -1,9 +1,9 @@
-//if asdawdasdawd; {} //this code works
+global.xmod = 8;
 mmod = 0;
 cmod = 0;
 bar = 64;
-//mini = 1; //1.4
-global.mini = 1;
+global.mmod = 600;
+global.mini = 1.4;
 minibig = (global.mini-1)*64;
 bop[0] = 1;
 bop[1] = 1;
@@ -20,7 +20,7 @@ combo = 0;
 realscore = 0;
 highscore = 0;
 draw_set_font(ft_ronaldo);
-state = c_receptorinput;
+state = st_receptorinput;
 offset = 0;
 noterank = 5;
 ranktext = 11037;
@@ -51,5 +51,9 @@ count = 0;
 countwo = 0;
 global.truetime = 1;
 
-c_inputwocreate();
+mainstickstate = array_create(4);
+cstickstate = array_create(4);
 rumble = array_create(4);
+
+danced = false;
+global.receptor = s_kaguya;
