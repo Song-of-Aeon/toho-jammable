@@ -1,10 +1,14 @@
 {
   "resources": [
+    {"id":{"name":"o_vn","path":"objects/o_vn/o_vn.yy",},"order":3,},
+    {"id":{"name":"vn","path":"rooms/vn/vn.yy",},"order":1,},
     {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"order":2,},
     {"id":{"name":"qwertyuiop","path":"objects/qwertyuiop/qwertyuiop.yy",},"order":1,},
     {"id":{"name":"understale","path":"notes/understale/understale.yy",},"order":0,},
     {"id":{"name":"s_solid","path":"sprites/s_solid/s_solid.yy",},"order":0,},
+    {"id":{"name":"ft_ronaldo","path":"fonts/ft_ronaldo/ft_ronaldo.yy",},"order":1,},
     {"id":{"name":"c_input","path":"scripts/c_input/c_input.yy",},"order":1,},
+    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":2,},
     {"id":{"name":"ft_lucida","path":"fonts/ft_lucida/ft_lucida.yy",},"order":0,},
     {"id":{"name":"c_null","path":"scripts/c_null/c_null.yy",},"order":0,},
     {"id":{"name":"s_when_the_im","path":"sprites/s_when_the_im/s_when_the_im.yy",},"order":1,},
@@ -25,6 +29,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"vn","path":"rooms/vn/vn.yy",},},
     {"roomId":{"name":"the_abyss","path":"rooms/the_abyss/the_abyss.yy",},},
   ],
   "Folders": [
@@ -44,14 +49,14 @@
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
-    {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
+    {"targets":-1,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
   ],
   "TextureGroups": [
-    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
+    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.1.542",
+    "IDEVersion": "2.3.1.536",
   },
   "resourceVersion": "1.4",
   "name": "ultra touhou",

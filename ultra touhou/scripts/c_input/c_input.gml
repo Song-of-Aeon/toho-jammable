@@ -37,5 +37,4 @@ function c_input() {
 	
 	hput = right - left; //hput and vput
 	vput = down - up;
-
 }
