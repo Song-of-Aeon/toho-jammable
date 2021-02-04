@@ -49,7 +49,7 @@
     "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "vn",
+  "name": "room_vn",
   "tags": [],
   "resourceType": "GMRoom",
 }

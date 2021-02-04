@@ -1,7 +1,7 @@
 {
   "resources": [
     {"id":{"name":"o_vn","path":"objects/o_vn/o_vn.yy",},"order":3,},
-    {"id":{"name":"vn","path":"rooms/vn/vn.yy",},"order":1,},
+    {"id":{"name":"room_vn","path":"rooms/room_vn/room_vn.yy",},"order":1,},
     {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"order":2,},
     {"id":{"name":"qwertyuiop","path":"objects/qwertyuiop/qwertyuiop.yy",},"order":1,},
     {"id":{"name":"understale","path":"notes/understale/understale.yy",},"order":0,},
@@ -29,7 +29,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"vn","path":"rooms/vn/vn.yy",},},
+    {"roomId":{"name":"room_vn","path":"rooms/room_vn/room_vn.yy",},},
     {"roomId":{"name":"the_abyss","path":"rooms/the_abyss/the_abyss.yy",},},
   ],
   "Folders": [
