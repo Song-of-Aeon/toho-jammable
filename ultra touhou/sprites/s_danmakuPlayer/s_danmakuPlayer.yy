@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2fa15b5d-aa52-4087-b07b-0623aff25d22","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "danmaku",
-    "path": "folders/danmaku.yy",
+    "name": "sprites",
+    "path": "folders/danmaku/sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_danmakuPlayer",

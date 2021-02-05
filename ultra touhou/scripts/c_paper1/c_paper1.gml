@@ -4,8 +4,11 @@ function c_paper1() {
 		repeat (30) {
 			var _create = function(this) {
 				this.speed = 4;
-				
+				this.sprite_index = s_plusbul;
 				this.bounced = false;
+			}
+			var _draw = function(this) {
+				this.image_angle += this.speed;
 			}
 			var _step = function(this) {
 				if (this.x < 0 || this.x > room_width || this.y < 0 || this.y > room_height) && !this.bounced {
@@ -29,7 +32,7 @@ function c_paper1() {
 					instance_destroy(this.id);
 				}
 			}
-			guy = Bullet(_step, _create, x, y);
+			guy = Bullet_draw(_step, _create, _draw, x, y);
 			guy.direction = i;
 			i += 12;
 		}
@@ -39,6 +42,7 @@ function c_paper1() {
 		var _create = function(this){
 			this.speed = 1;
 			this.direction = -90;
+			this.sprite_index = s_shardbul;
 		}
 		var _step = function(this){
 			this.speed = this.speed*1.02;

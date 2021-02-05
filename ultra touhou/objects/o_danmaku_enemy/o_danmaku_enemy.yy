@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_when_the_im",
-    "path": "sprites/s_when_the_im/s_when_the_im.yy",
+    "name": "s_boss",
+    "path": "sprites/s_boss/s_boss.yy",
   },
   "solid": false,
   "visible": true,

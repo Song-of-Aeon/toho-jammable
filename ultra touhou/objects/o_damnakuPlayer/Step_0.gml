@@ -21,10 +21,21 @@ if(keyboard_check(vk_up)){
 if(keyboard_check(vk_down)){
 	y+=spd;
 }
-if(keyboard_check(ord("Z"))){
-	//shoot
-	if(timer%5 == 0){
-		PlayerBullet(x,y-3);
+if keyboard_check(vk_shift) {
+	if(keyboard_check(ord("Z"))) {
+		script_execute(st_rock);
+	} else if(keyboard_check(ord("X"))) {
+		script_execute(st_paper2);
+	} else if(keyboard_check(ord("C"))) {
+		script_execute(st_scissors);
+	}
+} else {
+	if(keyboard_check(ord("Z"))) {
+		script_execute(st_rock2);
+	} else if(keyboard_check(ord("X"))) {
+		script_execute(st_paper);
+	} else if(keyboard_check(ord("C"))) {
+		script_execute(st_scissors2);
 	}
 }
 if(x  - (sprite_width/2) < 0){
