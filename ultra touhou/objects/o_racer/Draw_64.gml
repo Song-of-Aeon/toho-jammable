@@ -1,0 +1,1 @@
+draw_sprite(s_when_the_im,0,1366/2,768/2)
