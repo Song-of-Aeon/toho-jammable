@@ -1,0 +1,1 @@
+//draw_surface(d3dsurf,0,0);

@@ -11,16 +11,16 @@ function c_paper1() {
 				this.image_angle += this.speed;
 			}
 			var _step = function(this) {
-				if (this.x < 0 || this.x > room_width || this.y < 0 || this.y > room_height) && !this.bounced {
+				if (this.x < 0 || this.x > 640 || this.y < 0 || this.y > 480) && !this.bounced {
 					this.count++;
 					this.speed = 0;
 				}
 				if this.count > 40 && !this.bounced && count % 600 > 200 {
 					this.speed = 5;
-					this.direction = point_direction(this.x, this.y, room_width/2, room_height/1.3);
+					this.direction = point_direction(this.x, this.y, 640/2, 480/1.3);
 					this.bounced = true;
 				}
-				if collision_point(room_width/2, room_height/1.3, this.id, false, false) {
+				if collision_point(640/2, 480/1.3, this.id, false, false) {
 					var __create = function(this){
 						this.speed = 3;
 						this.direction = random(360);
@@ -48,8 +48,8 @@ function c_paper1() {
 			this.speed = this.speed*1.02;
 		}
 		//Bullet(_step, _create, (sin(count/100)+1)*room_width/2, 0);
-		Bullet(_step, _create, (sin(count-10/100)+1)*room_width/2, 0);
-		Bullet(_step, _create, (sin(count-10/100)+1)*room_width/2, 0);
+		Bullet(_step, _create, (sin(count-10/100)+1)*640/2, 0);
+		Bullet(_step, _create, (sin(count-10/100)+1)*640/2, 0);
 	}
 	//sqrt(abs(cos(x))) for funny
 }

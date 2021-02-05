@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_when_the_im",
+    "path": "sprites/s_when_the_im/s_when_the_im.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -24,6 +27,8 @@
     {"isDnD":false,"eventNum":77,"eventType":8,"collisionObjectId":null,"parent":{"name":"o_racer","path":"objects/o_racer/o_racer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":72,"eventType":8,"collisionObjectId":null,"parent":{"name":"o_racer","path":"objects/o_racer/o_racer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"o_racer","path":"objects/o_racer/o_racer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"race_collision","path":"objects/race_collision/race_collision.yy",},"parent":{"name":"o_racer","path":"objects/o_racer/o_racer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":76,"eventType":8,"collisionObjectId":null,"parent":{"name":"o_racer","path":"objects/o_racer/o_racer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

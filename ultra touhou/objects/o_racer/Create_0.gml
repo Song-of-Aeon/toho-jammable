@@ -1,4 +1,4 @@
-
+gpu_set_alphatestenable(true);
 #region cameraSetup
 	gpu_set_zwriteenable(true);
 	gpu_set_ztestenable(true);
@@ -11,7 +11,7 @@
 	view_set_camera(0,cam);
 #endregion
 
-look_x = 0;
+look_x = 180;
 look_y = 0;
-
+acc = 0;
 camera_set_update_script(view_camera[0], function (){});

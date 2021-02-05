@@ -21,7 +21,7 @@ vn = {
 						new Page("rofl owned loser", 30, function(){})],
 	onPage:  0,
 	onWord: 0,
-	onFinish : function(){room = room_danmaku}
+	onFinish : function(){room = room_racer}
 }
 reading = true;
 draw_set_font(ft_ronaldo)
