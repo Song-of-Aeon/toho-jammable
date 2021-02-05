@@ -6,9 +6,15 @@ if(c == 0){
 }
 step(id);
 
-if(y < -200){
+if(y < -100){
 	instance_destroy();
 }
-if(y > 1000){
+if(y > 700){
+	instance_destroy();	
+}
+if(x < -100){
+	instance_destroy();
+}
+if(x > 1000){
 	instance_destroy();	
 }
