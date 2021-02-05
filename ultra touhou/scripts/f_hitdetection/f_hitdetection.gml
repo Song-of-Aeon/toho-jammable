@@ -17,7 +17,7 @@ function f_hitdetection() {
 	} else {
 	    thenote = noone;
 	}
-	if thenote != noone && thenote.object_index != o_mine {
+	if thenote != noone {
 	    infoalpha += .2;
 	    infoalpha = clamp(infoalpha, 1.6, 4);
 	    var distance = abs(thenote.y - bar);
@@ -43,8 +43,7 @@ function f_hitdetection() {
 	    combocolour[1] = combocolour[0];
 	    if noterank < 3 {
 	        combo++;
-	        if global.controller && global.gimmickactive {
-	            //rumble[thenote.dir] += abs((abs(noterank)-2)/3);
+	        if global.controller {
 	            rumble[thenote.dir] = .6;
 	        }
 	    } else {
@@ -52,9 +51,6 @@ function f_hitdetection() {
 	    }
 	    switch noterank {
 	        case -1:
-	            with instance_create(x, y, o_hit) {
-	                image_blend = c_yellow;
-	            }
 	            realscore += .8*(100/notecount);
 	            if comborank > 2
 	                comborank = 2;
@@ -62,9 +58,6 @@ function f_hitdetection() {
 	            combocolour[0] = c_yellow;
 	            break;
 	        case -2:
-	            with instance_create(x, y, o_hit) {
-	                image_blend = c_green;
-	            }
 	            realscore += .6*(100/notecount);
 	            if comborank > 1
 	                comborank = 1;
@@ -72,24 +65,15 @@ function f_hitdetection() {
 	            combocolour[0] = c_green;
 	            break;
 	        case -3:
-	            with instance_create(x, y, o_hit) {
-	                image_blend = c_blue;
-	            }
 	            comborank = 0;
 	            combocolour[0] = c_blue;
 	            break;
 	        case 0:
-	            with instance_create(x, y, o_hit) {
-	                image_blend = c_aqua;
-	            }
 	            realscore += 100/notecount;
 	            hp += .2;
 	            combocolour[0] = c_aqua;
 	            break;
 	        case 1:
-	            with instance_create(x, y, o_hit) {
-	                image_blend = c_yellow;
-	            }
 	            realscore += .8*(100/notecount);
 	            if comborank > 2
 	                comborank = 2;
@@ -97,9 +81,6 @@ function f_hitdetection() {
 	            combocolour[0] = c_yellow;
 	            break;
 	        case 2:
-	            with instance_create(x, y, o_hit) {
-	                image_blend = c_green;
-	            }
 	            realscore += .6*(100/notecount);
 	            if comborank > 1
 	                comborank = 1;
@@ -107,16 +88,10 @@ function f_hitdetection() {
 	            combocolour[0] = c_green;
 	            break;
 	        case 3:
-	            with instance_create(x, y, o_hit) {
-	                image_blend = c_blue;
-	            }
 	            comborank = 0;
 	            combocolour[0] = c_blue;
 	            break;
 	        case 4:
-	            with instance_create(x, y, o_hit) {
-	                image_blend = c_red;
-	            }
 	            realscore -= 100/notecount*5;
 	            comborank = 0;
 	            hp -= 1;

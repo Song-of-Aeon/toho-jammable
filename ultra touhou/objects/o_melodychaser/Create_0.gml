@@ -2,6 +2,7 @@ global.xmod = 8;
 mmod = 0;
 cmod = 0;
 bar = 64;
+global.notecover = s_solid;
 global.mmod = 600;
 global.mini = 1.4;
 minibig = (global.mini-1)*64;

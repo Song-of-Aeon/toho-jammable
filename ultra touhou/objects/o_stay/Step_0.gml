@@ -5,31 +5,31 @@ if !instance_exists(tail) {
 if source = o_roll {
     switch image_angle {
         case -90:
-            holder = MELODYCHASER.left;
+            holder = o_melodychaser.left;
             break;
         case 0:
-            holder = MELODYCHASER.down;
+            holder = o_melodychaser.down;
             break;
         case 180:
-            holder = MELODYCHASER.up;
+            holder = o_melodychaser.up;
             break;
         case 90:
-            holder = MELODYCHASER.right;
+            holder = o_melodychaser.right;
             break;
     }
 } else {
     switch image_angle {
         case -90:
-            holder = MELODYCHASER.heldleft;
+            holder = o_melodychaser.heldleft;
             break;
         case 0:
-            holder = MELODYCHASER.helddown;
+            holder = o_melodychaser.helddown;
             break;
         case 180:
-            holder = MELODYCHASER.heldup;
+            holder = o_melodychaser.heldup;
             break;
         case 90:
-            holder = MELODYCHASER.heldright;
+            holder = o_melodychaser.heldright;
             break;
     }
 }

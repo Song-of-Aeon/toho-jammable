@@ -19,11 +19,11 @@ if y < 720 + sprite_height/2 {
 
 if unusable = false {
     //image_alpha = head.image_alpha;
-    if y <= MELODYCHASER.bar-64 || y <= head.y+32 {
+    if y <= o_melodychaser.bar-64 || y <= head.y+32 {
         with head {
             instance_destroy();
         }
-        MELODYCHASER.realscore += .2*(100/MELODYCHASER.notecount);
+        o_melodychaser.realscore += .2*(100/o_melodychaser.notecount);
         instance_destroy();
     }
 } else if y <= 0 {

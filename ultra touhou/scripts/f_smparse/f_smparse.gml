@@ -208,6 +208,7 @@ function f_smparse(thesong) {
 	    placer += 1/notemaker[9];
 	    amount += 1;
 	}
+	console_log(instance_number(o_note));
 	o_melodychaser.notecount = instance_number(o_note);
 	o_melodychaser.notecount += instance_number(o_tail)/5;
 }

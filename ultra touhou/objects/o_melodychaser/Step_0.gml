@@ -65,7 +65,7 @@ if note != noone {
         combocolour[2] = combocolour[1];
         combocolour[1] = combocolour[0];
         combocolour[0] = c_red;
-    } else if note.object_index != o_mine {
+    } else {
         combo = 0;
         bop[8] = 1.3;
         noterank = 4;
@@ -91,7 +91,7 @@ infoalpha = clamp(infoalpha, 0, 4);
 
 if !instance_exists(o_note) && danced {
     countwo++;
-    console_log("it's rude to talk about someone who's listening.");
+    //console_log("it's rude to talk about someone who's listening.");
 }
 if global.controller {
     gamepad_set_vibration(0, rumble[0]+rumble[1]/1.5+rumble[2]/2.5, rumble[3]+rumble[2]/1.5+rumble[1]/2.5);
