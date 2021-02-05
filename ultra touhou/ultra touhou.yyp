@@ -39,6 +39,7 @@
     {"id":{"name":"ft_lucida","path":"fonts/ft_lucida/ft_lucida.yy",},"order":0,},
     {"id":{"name":"o_troublemaker","path":"objects/o_troublemaker/o_troublemaker.yy",},"order":30,},
     {"id":{"name":"like_uhh_fucken_bullet_stuff","path":"scripts/like_uhh_fucken_bullet_stuff/like_uhh_fucken_bullet_stuff.yy",},"order":6,},
+    {"id":{"name":"danmaku","path":"notes/danmaku/danmaku.yy",},"order":2,},
     {"id":{"name":"c_timebuster","path":"scripts/c_timebuster/c_timebuster.yy",},"order":12,},
     {"id":{"name":"o_note","path":"objects/o_note/o_note.yy",},"order":9,},
     {"id":{"name":"s_blue","path":"sprites/s_blue/s_blue.yy",},"order":22,},
