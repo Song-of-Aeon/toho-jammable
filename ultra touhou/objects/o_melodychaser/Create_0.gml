@@ -57,4 +57,4 @@ cstickstate = array_create(4);
 rumble = array_create(4);
 
 danced = false;
-global.receptor = s_kaguya;
+global.receptor = s_receptor;

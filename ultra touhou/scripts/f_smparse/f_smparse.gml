@@ -1,8 +1,8 @@
 function f_smparse(thesong) {
 	script_execute(thesong);
-	global.red = s_when_the_im;
-	global.blue = s_when_the_im;
-	global.purple = s_when_the_im;
+	global.red = s_red;
+	global.blue = s_blue;
+	global.purple = s_purple;
 	
 	mainstickstate = array_create(4);
 	cstickstate = array_create(4);
