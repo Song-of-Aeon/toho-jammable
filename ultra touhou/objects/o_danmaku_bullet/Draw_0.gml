@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-step = function(){};
-c = 0;
+image_angle = direction-90;
+draw_self();

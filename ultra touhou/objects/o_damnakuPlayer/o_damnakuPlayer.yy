@@ -25,6 +25,7 @@
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_damnakuPlayer","path":"objects/o_damnakuPlayer/o_damnakuPlayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":77,"eventType":8,"collisionObjectId":null,"parent":{"name":"o_damnakuPlayer","path":"objects/o_damnakuPlayer/o_damnakuPlayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"o_damnakuPlayer","path":"objects/o_damnakuPlayer/o_damnakuPlayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_danmaku_bullet","path":"objects/o_danmaku_bullet/o_danmaku_bullet.yy",},"parent":{"name":"o_damnakuPlayer","path":"objects/o_damnakuPlayer/o_damnakuPlayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

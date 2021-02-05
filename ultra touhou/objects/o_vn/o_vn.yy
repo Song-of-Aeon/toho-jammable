@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_textbox",
+    "path": "sprites/s_textbox/s_textbox.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
