@@ -1,6 +1,6 @@
 count += global.truetime;
 
-if count >= 80 {
+if count >= 135 {
     y += vspd*global.truetime;
 }
 

@@ -22,6 +22,6 @@ function PlayerBullet(_x, _y) {
 	}
 	var _step = function(this){
 		
-	}	
+	}
 	Bullet(_step,_create,_x,_y);
 }
