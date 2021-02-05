@@ -17,11 +17,11 @@ Wait = function(howlong, func) constructor
 	
 vn = {
 	pages : 	 [new Page("trolled XD", 30, function(){makeSoulless(function(){show_debug_message("poggers")},"test")}),
-						new Wait(70,function(){}),
+						new Wait(70,function(){removeSoulless("test")}),
 						new Page("rofl owned loser", 30, function(){})],
 	onPage:  0,
 	onWord: 0,
-	onFinish : function(){room = the_abyss}
+	onFinish : function(){room = room_danmaku}
 }
 reading = true;
 draw_set_font(ft_ronaldo)
