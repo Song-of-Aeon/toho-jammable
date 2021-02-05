@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_kaguya",
-    "path": "sprites/s_kaguya/s_kaguya.yy",
+    "name": "s_roll",
+    "path": "sprites/s_roll/s_roll.yy",
   },
   "solid": false,
   "visible": true,

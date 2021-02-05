@@ -51,14 +51,14 @@ function f_hitdetection() {
 	    }
 	    switch noterank {
 	        case -1:
-	            realscore += .8*(100/notecount);
+	            realscore += 100/notecount;
 	            if comborank > 2
 	                comborank = 2;
 	            hp += .16;
 	            combocolour[0] = c_yellow;
 	            break;
 	        case -2:
-	            realscore += .6*(100/notecount);
+	            realscore += .7*(100/notecount);
 	            if comborank > 1
 	                comborank = 1;
 	            hp += .12;
@@ -71,17 +71,17 @@ function f_hitdetection() {
 	        case 0:
 	            realscore += 100/notecount;
 	            hp += .2;
-	            combocolour[0] = c_aqua;
+	            combocolour[0] = c_yellow;
 	            break;
 	        case 1:
-	            realscore += .8*(100/notecount);
+	            realscore += 100/notecount;
 	            if comborank > 2
 	                comborank = 2;
 	            hp += .16;
 	            combocolour[0] = c_yellow;
 	            break;
 	        case 2:
-	            realscore += .6*(100/notecount);
+	            realscore += .7*(100/notecount);
 	            if comborank > 1
 	                comborank = 1;
 	            hp += .12;

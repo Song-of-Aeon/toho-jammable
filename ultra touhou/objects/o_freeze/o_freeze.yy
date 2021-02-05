@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_kaguya",
-    "path": "sprites/s_kaguya/s_kaguya.yy",
+    "name": "s_freeze",
+    "path": "sprites/s_freeze/s_freeze.yy",
   },
   "solid": false,
   "visible": true,

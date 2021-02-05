@@ -6,24 +6,6 @@ if !danced {
 		danced = true;
         f_smparse(c_drivin);
     }
-    if up && global.mini < 3 {
-        global.mini += .1;
-        minibig = (global.mini-1)*64;
-        laneleft = 544-minibig*1.5;
-        lanedown = 608-minibig*.5;
-        laneup = 672+minibig*.5;
-        laneright = 736+minibig*1.5;
-
-    }
-    if down && global.mini > .5 {
-        global.mini -= .1;
-        minibig = (global.mini-1)*64;
-        laneleft = 544-minibig*1.5;
-        lanedown = 608-minibig*.5;
-        laneup = 672+minibig*.5;
-        laneright = 736+minibig*1.5;
-
-    }
     
 
 }
@@ -32,6 +14,11 @@ if songstarting {
     timecounter += delta_time;
     if timecounter/1000 >= offset {
         count += global.truetime;
+    }
+	count += global.truetime;
+	if count >= 290 {
+        audio_play_sound(audio, 0, false);
+        songstarting = false;
     }
     
 }

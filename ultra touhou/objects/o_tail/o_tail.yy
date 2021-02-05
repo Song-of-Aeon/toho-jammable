@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_freeze",
+    "path": "sprites/s_freeze/s_freeze.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
