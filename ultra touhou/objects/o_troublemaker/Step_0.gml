@@ -4,7 +4,7 @@ if !danced {
     if o_melodychaser.danced {
         songstarting = true;
 		danced = true;
-        f_evilparse(c_drivin);
+        f_evilparse(c_occultcore);
     }
     
 

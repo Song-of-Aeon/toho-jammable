@@ -40,7 +40,7 @@ lanes = 4;
 blueposaved = bluepos;
 hp = 12;
 songbg = s_kaguya;
-script_execute(c_drivin);
+script_execute(c_occultcore);
 arraypos = 0;
 comborank = 3;
 

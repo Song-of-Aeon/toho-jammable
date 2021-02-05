@@ -4,7 +4,7 @@ if !danced {
     if select {
         songstarting = true;
 		danced = true;
-        f_smparse(c_drivin);
+        f_smparse(c_occultcore);
     }
     
 
@@ -16,7 +16,7 @@ if songstarting {
         count += global.truetime;
     }
 	count += global.truetime;
-	if count >= 290 {
+	if count >= 390 {
         audio_play_sound(audio, 0, false);
         songstarting = false;
     }

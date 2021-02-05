@@ -5,6 +5,7 @@
     {"id":{"name":"g1","path":"sprites/g1/g1.yy",},"order":3,},
     {"id":{"name":"o_stay","path":"objects/o_stay/o_stay.yy",},"order":16,},
     {"id":{"name":"o_hitfx","path":"objects/o_hitfx/o_hitfx.yy",},"order":26,},
+    {"id":{"name":"c_scissors1","path":"scripts/c_scissors1/c_scissors1.yy",},"order":18,},
     {"id":{"name":"o_tail","path":"objects/o_tail/o_tail.yy",},"order":18,},
     {"id":{"name":"o_vn","path":"objects/o_vn/o_vn.yy",},"order":3,},
     {"id":{"name":"d3d","path":"scripts/d3d/d3d.yy",},"order":2,},
@@ -76,8 +77,11 @@
     {"id":{"name":"c_rockstep","path":"scripts/c_rockstep/c_rockstep.yy",},"order":16,},
     {"id":{"name":"o_roll","path":"objects/o_roll/o_roll.yy",},"order":17,},
     {"id":{"name":"f_evilparse","path":"scripts/f_evilparse/f_evilparse.yy",},"order":32,},
+    {"id":{"name":"c_occultcore","path":"scripts/c_occultcore/c_occultcore.yy",},"order":33,},
     {"id":{"name":"f_notecolouring","path":"scripts/f_notecolouring/f_notecolouring.yy",},"order":20,},
+    {"id":{"name":"m_occultcore","path":"sounds/m_occultcore/m_occultcore.yy",},"order":3,},
     {"id":{"name":"s_textbox","path":"sprites/s_textbox/s_textbox.yy",},"order":4,},
+    {"id":{"name":"sm_occultcore","path":"scripts/sm_occultcore/sm_occultcore.yy",},"order":34,},
     {"id":{"name":"room_racer","path":"rooms/room_racer/room_racer.yy",},"order":1,},
     {"id":{"name":"oi_view","path":"objects/oi_view/oi_view.yy",},"order":0,},
     {"id":{"name":"s_fairy","path":"sprites/s_fairy/s_fairy.yy",},"order":2,},
@@ -102,10 +106,10 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"fantasy_heaven","path":"rooms/fantasy_heaven/fantasy_heaven.yy",},},
     {"roomId":{"name":"room_vn","path":"rooms/room_vn/room_vn.yy",},},
     {"roomId":{"name":"room_racer","path":"rooms/room_racer/room_racer.yy",},},
     {"roomId":{"name":"room_danmaku","path":"rooms/room_danmaku/room_danmaku.yy",},},
-    {"roomId":{"name":"fantasy_heaven","path":"rooms/fantasy_heaven/fantasy_heaven.yy",},},
     {"roomId":{"name":"the_abyss","path":"rooms/the_abyss/the_abyss.yy",},},
   ],
   "Folders": [
@@ -136,6 +140,7 @@
   ],
   "IncludedFiles": [
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"drivin.txt","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"occultcore.txt","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
     "IDEVersion": "2.3.1.542",

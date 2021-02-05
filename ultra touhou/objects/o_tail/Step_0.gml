@@ -5,7 +5,7 @@ if !instance_exists(head) {
 
 
 count += global.truetime;
-if count >= 80 {
+if count >= 130 {
     y += vspd*global.truetime;
 }
 
