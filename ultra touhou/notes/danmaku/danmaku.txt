@@ -3,26 +3,28 @@ rock
 
 
 paper
-
+bullets roll out to the edges of the screen and crumple towards the center
 
 scissors
-
+large blades continually swipe in and out from both sides, only leaving a bit of space in the center (lumen final)
 
 rock
-
+asteroids that cause danmaku explosions if hit bottom of screen
 
 paper
-
+small paper laced with bullets get tossed carelessly onto the field before closing in and becoming aimed airplanes
 
 scissors
 
 
 dynamite
 
+
+
 shot types:
 rock: forward-facing
 
-paper:
+paper: wide
 
-scissors:
+scissors: short-range
 
