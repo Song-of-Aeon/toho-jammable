@@ -1,11 +1,12 @@
 if !instance_exists(head) {
     instance_destroy();
+	unusable = true;
 }
 
 
 
 count += global.truetime;
-if count >= 130 {
+if count >= 135 {
     y += vspd*global.truetime;
 }
 
