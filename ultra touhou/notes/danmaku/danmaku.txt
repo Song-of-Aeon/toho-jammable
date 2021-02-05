@@ -1,0 +1,28 @@
+spellcards:
+rock
+
+
+paper
+
+
+scissors
+
+
+rock
+
+
+paper
+
+
+scissors
+
+
+dynamite
+
+shot types:
+rock: forward-facing
+
+paper:
+
+scissors:
+
