@@ -122,6 +122,9 @@ function f_smparse(thesong) {
 	        if notemaker[j] > 8 {
 	            notemaker[j] = 1;
 	        }
+			if notemaker[j] > 4 {
+				notemaker[j] = 0;
+			}
 	        switch notemaker[j] {
 	            case 0:
 	                notemaker[j] = o_null;
@@ -140,15 +143,14 @@ function f_smparse(thesong) {
 	                break;
             
 	        }
+			
 	    }
 	    if notemaker[j] != o_null {
 	        f_notecolouring(notemaker[9]);
-        
 	        with instance_create(o_melodychaser.laneleft, placer*32*xmod+o_melodychaser.bar, notemaker[0]) {
 	            dir = 0;
 	            vspd = -(other.bpm/c_bpmbuster())*other.xmod;
 	            y -= vspd*60;
-	            sprite_index = other.notecolour;
 	            image_xscale = global.mini;
 	            image_yscale = global.mini;
 	            if object_index = o_freeze || object_index = o_roll {
@@ -157,13 +159,14 @@ function f_smparse(thesong) {
 	                with other.freezel {
 	                    tail = other.id;
 	                }
-	            }
+	            } else {
+					sprite_index = other.notecolour;
+				}
 	        }
 	        with instance_create(o_melodychaser.lanedown, placer*32*xmod+o_melodychaser.bar, notemaker[1]) {
 	            dir = 1;
 	            vspd = -(other.bpm/c_bpmbuster())*other.xmod;
 	            y -= vspd*60;
-	            sprite_index = other.notecolour;
 	            image_xscale = global.mini;
 	            image_yscale = global.mini;
 	            if object_index = o_freeze || object_index = o_roll {
@@ -172,13 +175,14 @@ function f_smparse(thesong) {
 	                with other.freezed {
 	                    tail = other.id;
 	                }
-	            }
+	            } else {
+					sprite_index = other.notecolour;
+				}
 	        }
 	        with instance_create(o_melodychaser.laneup, placer*32*xmod+o_melodychaser.bar, notemaker[2]) {
 	            dir = 2;
 	            vspd = -(other.bpm/c_bpmbuster())*other.xmod;
 	            y -= vspd*60;
-	            sprite_index = other.notecolour;
 	            image_xscale = global.mini;
 	            image_yscale = global.mini;
 	            if object_index = o_freeze || object_index = o_roll {
@@ -187,13 +191,14 @@ function f_smparse(thesong) {
 	                with other.freezeu {
 	                    tail = other.id;
 	                }
-	            }
+	            } else {
+					sprite_index = other.notecolour;
+				}
 	        }
 	        with instance_create(o_melodychaser.laneright, placer*32*xmod+o_melodychaser.bar, notemaker[3]) {
 	            dir = 3;
 	            vspd = -(other.bpm/c_bpmbuster())*other.xmod;
 	            y -= vspd*60;
-	            sprite_index = other.notecolour;
 	            image_xscale = global.mini;
 	            image_yscale = global.mini;
 	            if object_index = o_freeze || object_index = o_roll {
@@ -202,7 +207,9 @@ function f_smparse(thesong) {
 	                with other.freezer {
 	                    tail = other.id;
 	                }
-	            }
+	            } else {
+					sprite_index = other.notecolour;
+				}
 	        }
 	    }
 	    placer += 1/notemaker[9];

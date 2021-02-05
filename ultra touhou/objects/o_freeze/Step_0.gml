@@ -3,8 +3,9 @@ if !instance_exists(tail) {
 }
 
 count += global.truetime;
+sprite_index = s_freeze;
 
-if count >= 240 {
+if count >= 80 {
     y += vspd*global.truetime;
 }
 

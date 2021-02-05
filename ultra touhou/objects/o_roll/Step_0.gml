@@ -4,7 +4,9 @@ if !instance_exists(tail) {
 
 count += global.truetime;
 
-if count >= 240 {
+sprite_index = s_roll;
+
+if count >= 80 {
     y += vspd*global.truetime;
 }
 
