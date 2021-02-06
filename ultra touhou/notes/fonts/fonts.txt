@@ -1,5 +1,4 @@
 vSOTO NO FONTS
-- background
-- judgement font
-- music
-- map
+- tail above stay
+- cant miss freeze
+- desync

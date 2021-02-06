@@ -47,7 +47,6 @@
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":1,},
     {"id":{"name":"st_paper","path":"scripts/st_paper/st_paper.yy",},"order":10,},
     {"id":{"name":"room_danmaku","path":"rooms/room_danmaku/room_danmaku.yy",},"order":1,},
-    {"id":{"name":"fantasy_heaven","path":"rooms/fantasy_heaven/fantasy_heaven.yy",},"order":7,},
     {"id":{"name":"s_danmakuPlayer","path":"sprites/s_danmakuPlayer/s_danmakuPlayer.yy",},"order":1,},
     {"id":{"name":"o_ghos","path":"objects/o_ghos/o_ghos.yy",},"order":7,},
     {"id":{"name":"s_kaguya","path":"sprites/s_kaguya/s_kaguya.yy",},"order":8,},
@@ -101,6 +100,7 @@
     {"id":{"name":"s_roundbul","path":"sprites/s_roundbul/s_roundbul.yy",},"order":5,},
     {"id":{"name":"m_analogue_mirror","path":"sounds/m_analogue_mirror/m_analogue_mirror.yy",},"order":0,},
     {"id":{"name":"the_abyss","path":"rooms/the_abyss/the_abyss.yy",},"order":0,},
+    {"id":{"name":"fantasy_heaven","path":"rooms/fantasy_heaven/fantasy_heaven.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -116,9 +116,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"fantasy_heaven","path":"rooms/fantasy_heaven/fantasy_heaven.yy",},},
     {"roomId":{"name":"room_vn","path":"rooms/room_vn/room_vn.yy",},},
     {"roomId":{"name":"room_racer","path":"rooms/room_racer/room_racer.yy",},},
-    {"roomId":{"name":"fantasy_heaven","path":"rooms/fantasy_heaven/fantasy_heaven.yy",},},
     {"roomId":{"name":"room_danmaku","path":"rooms/room_danmaku/room_danmaku.yy",},},
     {"roomId":{"name":"the_abyss","path":"rooms/the_abyss/the_abyss.yy",},},
   ],
@@ -157,7 +157,7 @@
     {"CopyToMask":-1,"filePath":"datafiles/BlenderScripts","resourceVersion":"1.0","name":"GMStaticModelExport_Blender_2_80.py","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"ExtensionInfoREADME.txt","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"model.mdl","resourceType":"GMIncludedFile",},
-    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"occultcore.txt","resourceType":"GMIncludedFile",},
+    {"CopyToMask":153157610357391598,"filePath":"datafiles","resourceVersion":"1.0","name":"occultcore.txt","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
     "IDEVersion": "2.3.1.542",

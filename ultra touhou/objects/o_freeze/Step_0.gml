@@ -5,7 +5,7 @@ if !instance_exists(tail) {
 count += global.truetime;
 sprite_index = s_freeze;
 
-if count >= 135 {
+if count >= 185 {
     y += vspd*global.truetime;
 }
 
@@ -18,7 +18,7 @@ if tail != 0 {
 
 if y < 720 + sprite_height/2 {
     if y <= o_melodychaser.bar {
-		if y <= -32 {
+		if y <= -256 {
             instance_destroy();
         }
     }

@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "m_occultcore.ogg",
-  "duration": 151.271439,
+  "duration": 193.028015,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

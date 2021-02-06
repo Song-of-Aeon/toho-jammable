@@ -2,11 +2,11 @@ if !instance_exists(head) {
     instance_destroy();
 	unusable = true;
 }
-
+layer_add_instance("backy", id);
 
 
 count += global.truetime;
-if count >= 135 {
+if count >= 185 {
     y += vspd*global.truetime;
 }
 
@@ -27,7 +27,7 @@ if unusable = false {
         o_melodychaser.realscore += .2*(100/o_melodychaser.notecount);
         instance_destroy();
     }
-} else if y <= 0 {
+} else if y <= -256 {
     instance_destroy();
 }
 image_index = 2;
