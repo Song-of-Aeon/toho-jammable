@@ -34,7 +34,6 @@ bop[8] = clamp(bop[i], 1, 2);
 
 lanespacing = laneup - laneleft;
 var note = collision_line(laneleft, bar-bpm*global.xmod/20-96, laneright, bar-bpm*global.xmod/20-96, o_note, false, false);
-var note = noone;
 if note != noone {
     if note.object_index = o_freeze || note.object_index = o_roll {
         with note.tail {

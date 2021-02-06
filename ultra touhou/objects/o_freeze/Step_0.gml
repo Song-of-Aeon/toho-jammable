@@ -18,7 +18,7 @@ if tail != 0 {
 
 if y < 720 + sprite_height/2 {
     if y <= o_melodychaser.bar {
-		if y <= -256 {
+		if y <= -1024 {
             instance_destroy();
         }
     }
