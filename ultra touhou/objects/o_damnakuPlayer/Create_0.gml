@@ -7,3 +7,4 @@ surf = surface_create(960,720);
 view_surface_id[0] = surf;
 #endregion
 shot = st_paper;
+score = 0; 

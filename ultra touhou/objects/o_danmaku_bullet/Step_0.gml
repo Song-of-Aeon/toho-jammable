@@ -18,3 +18,6 @@ if(x < -100){
 if(x > 1000){
 	instance_destroy();	
 }
+if(distance_to_object(o_damnakuPlayer) < 5 && owner != o_damnakuPlayer.id){
+	
+}

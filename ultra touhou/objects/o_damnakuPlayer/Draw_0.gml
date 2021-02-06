@@ -6,3 +6,4 @@ if(focus){
 	draw_circle(x-1,y-1,3,false);	
 	draw_set_color(c_white);
 }
+draw_text(0,0,score);
