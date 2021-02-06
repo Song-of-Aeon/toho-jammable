@@ -19,6 +19,7 @@
     {"id":{"name":"o_danmaku_enemy","path":"objects/o_danmaku_enemy/o_danmaku_enemy.yy",},"order":6,},
     {"id":{"name":"race_collision","path":"objects/race_collision/race_collision.yy",},"order":4,},
     {"id":{"name":"c_bpmbuster","path":"scripts/c_bpmbuster/c_bpmbuster.yy",},"order":19,},
+    {"id":{"name":"m_youkai_racetrack","path":"sounds/m_youkai_racetrack/m_youkai_racetrack.yy",},"order":4,},
     {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"order":2,},
     {"id":{"name":"st_rock","path":"scripts/st_rock/st_rock.yy",},"order":15,},
     {"id":{"name":"c_danmakutest","path":"scripts/c_danmakutest/c_danmakutest.yy",},"order":7,},
@@ -126,9 +127,9 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"room_vn","path":"rooms/room_vn/room_vn.yy",},},
+    {"roomId":{"name":"room_danmaku","path":"rooms/room_danmaku/room_danmaku.yy",},},
     {"roomId":{"name":"fantasy_heaven","path":"rooms/fantasy_heaven/fantasy_heaven.yy",},},
     {"roomId":{"name":"room_racer","path":"rooms/room_racer/room_racer.yy",},},
-    {"roomId":{"name":"room_danmaku","path":"rooms/room_danmaku/room_danmaku.yy",},},
     {"roomId":{"name":"the_abyss","path":"rooms/the_abyss/the_abyss.yy",},},
   ],
   "Folders": [
