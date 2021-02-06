@@ -26,3 +26,6 @@ if(keyboard_check(vk_shift)){
 }
 x-=	lengthdir_x(acc,look_x);
 y-= lengthdir_y(acc,look_x);
+
+c_timebuster();
+timer += global.truetime/10;
