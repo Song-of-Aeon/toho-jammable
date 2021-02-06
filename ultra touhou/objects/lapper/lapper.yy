@@ -1,14 +1,8 @@
 {
-  "spriteId": {
-    "name": "fucken_uhh_wall",
-    "path": "sprites/fucken_uhh_wall/fucken_uhh_wall.yy",
-  },
-  "solid": true,
+  "spriteId": null,
+  "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "s_roundbul",
-    "path": "sprites/s_roundbul/s_roundbul.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
@@ -23,9 +17,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"race_collision","path":"objects/race_collision/race_collision.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -33,7 +25,7 @@
     "path": "folders/Raceism.yy",
   },
   "resourceVersion": "1.0",
-  "name": "race_collision",
+  "name": "lapper",
   "tags": [],
   "resourceType": "GMObject",
 }

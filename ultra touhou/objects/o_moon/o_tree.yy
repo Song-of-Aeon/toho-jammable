@@ -1,14 +1,11 @@
 {
   "spriteId": {
-    "name": "fucken_uhh_wall",
-    "path": "sprites/fucken_uhh_wall/fucken_uhh_wall.yy",
+    "name": "Sprite3",
+    "path": "sprites/Sprite3/Sprite3.yy",
   },
   "solid": true,
   "visible": true,
-  "spriteMaskId": {
-    "name": "s_roundbul",
-    "path": "sprites/s_roundbul/s_roundbul.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
@@ -24,7 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"race_collision","path":"objects/race_collision/race_collision.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"o_tree","path":"objects/o_tree/o_tree.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +30,7 @@
     "path": "folders/Raceism.yy",
   },
   "resourceVersion": "1.0",
-  "name": "race_collision",
+  "name": "o_tree",
   "tags": [],
   "resourceType": "GMObject",
 }

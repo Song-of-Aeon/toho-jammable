@@ -1,13 +1,13 @@
 {
   "spriteId": {
-    "name": "fucken_uhh_wall",
-    "path": "sprites/fucken_uhh_wall/fucken_uhh_wall.yy",
+    "name": "Sprite30",
+    "path": "sprites/Sprite30/Sprite30.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": {
-    "name": "s_roundbul",
-    "path": "sprites/s_roundbul/s_roundbul.yy",
+    "name": "Sprite30",
+    "path": "sprites/Sprite30/Sprite30.yy",
   },
   "persistent": false,
   "parentObjectId": null,
@@ -24,7 +24,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"race_collision","path":"objects/race_collision/race_collision.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"checkpoint","path":"objects/checkpoint/checkpoint.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"checkpoint","path":"objects/checkpoint/checkpoint.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +34,7 @@
     "path": "folders/Raceism.yy",
   },
   "resourceVersion": "1.0",
-  "name": "race_collision",
+  "name": "checkpoint",
   "tags": [],
   "resourceType": "GMObject",
 }
