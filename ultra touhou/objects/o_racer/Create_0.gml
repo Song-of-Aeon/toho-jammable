@@ -19,3 +19,5 @@ camera_set_update_script(view_camera[0], function (){});
 half = false
 surface_resize(application_surface,320,200);
 drifting = false;
+timer = 0;
+lap = 0;
