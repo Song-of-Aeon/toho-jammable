@@ -1,110 +1,186 @@
 sum = sumireko
 mam = mamizou
 
+sum confused on left, facing right
 sum "Gee, it sure is boring around here..."
 sum "Is this the supposed peace all busy students should strive for?"
+sum smug2
 sum "I just wonder what the youkai are up to..."
 
+sum surprised
 sum "Oh!"
+mam neutral appears on right, facing right
 sum "That person..."
 sum "She's one of the youkai who tried to stop me from entering Gensokyo, isn't she?"
+sum confused
 sum "I wonder why she's here...?"
 
+sum surprised
 sum "Could it be!? The youkai had been infiltrating Earth this whole time!?"
+sum smug2
 sum "...Doesn't involve me, though. I can hold my own against them if I have to."
+sum smug
 sum "I'll just say hi."
 
+sum happy moves toward center
 sum "Hiiiiii!"
+mam mild faces left
 mam "!"
+mam smug
 mam "Uh, yes?"
+sum smug2
 sum "Don't act nonchalant! You can't fool me, Ms. tanuki!"
 mam "..."
+sum moves center-left, mam moves center-right (reposition with same distance between the two so they are at a more natural position on the screen)
+mam sans
 mam "Nothin' to be done about it."
 mam "Couldja at least try to use my name, high-school girl?"
+sum confused
 sum "I can't use what I don't have. And for the record, I-"
+mam smug
 mam "Just a joke. Sumireko, isn't it?"
 mam "Mamizou Futatsuiwa here. Pleasure to meetcha proper."
+sum disappointed
 sum "I'm not sure I want to hear that from someone who tried to kill me..."
+mam smug
 mam "Ah, hogwash. That's just danmaku play."
+mam sans
 mam "You made it out in the end, anyway.
+mam neutral
 mam "Besides, you approached me today. Got something to say?"
+sum happy
 sum "Hmm... not in particular. I just remembered you asked for a tour of the outside world during that incident, though."
 sum "I've got the day off, and I'm way too awake to go to Gensokyo right now."
+sum smug
 sum "Care to join me for a bit of modern entertainment?"
 
 mam "I got this impression before, but..."
 mam "You really are careless, aren'tcha?"
+mam smug
 mam "I'll take that offer. I was just peeking around for a friend, anyway."
+sum smug2
 sum "Wonderful!"
 
+mam neutral
 mam "So, where are we going?"
+sum confused
 sum "Let me check what's around on my phone."
+mam confused
 mam "Can'tcha just look?"
 sum "No, no..."
+sum happy
 sum "Ah, this should do!"
 sum "How does an arcade sound?"
+mam smug
 mam "Never heard of 'em. Sounds great."
 
+sum smug
 sum "Here we are, the arcade."
+sum smug2
 sum "A wonderful display of the degeneration of art this society seeks, the very epitome of meaningless and transient interactions, the place it would not be wrong to call-"
+mam confused
 mam "Uh, do you even want to be here?"
+sum happy
 sum "Well, it's fun sometimes."
+
+mam neutral
 mam "So, what are we doing?"
+sum confused
 sum "To explain it to an ancient youkai..."
+sum happy
 sum "Essentially, each of these unmanned stands hold a different game."
 sum "Most of them are solitaire, but all of them have a competitive element."
 sum "\"Do better than your friend\" and the like."
+mam mild
 mam "'Zat so?"
+mam smug2
 mam "If danmaku's a game, you could say I'm pretty good at them."
+sum surprised
 sum "Oh, I think they have one like that here, too."
+sum confused
 sum "I mean, not like it is in Gensokyo, but..."
+sum smug
 sum "Whatever. Just follow me!"
 sum "Best 2 out of 3 games wins!"
 
+[play danmaku]
 
-
+sum happy
 sum "So, what did you think?"
+mam smug
 mam "Nothing like the real thing, but that's fine."
+sum surprised
 sum "You picked it up pretty easily. Have you played a video game before?"
+mam smug2
 mam "Not even once."
+sum confused
 sum "Hm. Anyway, next up is a music game."
+sum happy
 sum "We can play at the same time on this!"
 sum "This might be a bit less intuitive for you, but it should make sense."
 
+[play fonts]
 
+sum smug
 sum "You aren't bad at all."
 sum "I wonder how much of that is just because of your biology, though."
+mam smug
 mam "Don't worry about that."
+mam neutral
 mam "By the way, what does the winner get?"
 mam "Of your \"2 out of 3\"?"
+sum confused
 sum "I said that, but..."
-sum "Then I remembered the last bet we had.'
+sum "Then I remembered the last bet we had."
+sum disappointed
 sum "Just so you know, I won't accept anything from a tanuki anymore, even if I win."
+mam smug2
 mam "Ah, what a frightened human. A sight for sore eyes."
+sum happy
 sum "But if you win-"
+mam sans
 mam "Nah."
+sum surprised
 sum "Nah?"
+mam neutral
 mam "Meaningless games are fine by me. Nothing you could give me that I couldn't get myself, anyway."
+sum smug
 sum "Very well."
 sum "The next game is a..."
+sum confused
 sum "Wait, do you know what a car is?"
 mam "Wheels, metal, moves. That about right?"
 sum "That's probably enough. The game is a race using cars."
+sum smug2
 sum "Now that I've flown, they kind of seem useless, though."
+mam smug2
 mam "Humans shouldn't get too used to leaving the ground. Eventually, you won't be able to know it again until your death."
+sum confused
 sum "What is that supposed to be about, Icarus? I know my limits."
+mam sans
 mam "Then on with the games."
 
+[play racism]
 
-
+mam smug
 mam "Ah, what fun."
+mam neutral
 mam "I ought to be going now."
+sum smug
 sum "I suppose so."
+sum happy
 sum "How did you like them? The games you can play by pretending to be a human."
+mam smug
 mam "Nothing special, nothing bad. Humans are talented at making trinkets."
 mam "I much prefer the game you choose to play while pretending to be a youkai."
+sum smug2
 sum "Of course. Imitation magic in pixels can't match the real thing."
-sum "Good night, Ms. tanuki."
+sum happy
+sum "Good day, Ms. tanuki."
+sum leaves on left
+mam neutral
 mam "Seeya, kid-"
+mam confused
 mam "Wait, that's not..."
+mam sans
 mam "Ah, whatever."
