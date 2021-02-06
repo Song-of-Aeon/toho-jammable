@@ -31,6 +31,8 @@
     {"isDnD":false,"eventNum":76,"eventType":8,"collisionObjectId":null,"parent":{"name":"o_racer","path":"objects/o_racer/o_racer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"checkpoint","path":"objects/checkpoint/checkpoint.yy",},"parent":{"name":"o_racer","path":"objects/o_racer/o_racer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"lapper","path":"objects/lapper/lapper.yy",},"parent":{"name":"o_racer","path":"objects/o_racer/o_racer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,"parent":{"name":"o_racer","path":"objects/o_racer/o_racer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":5,"eventType":7,"collisionObjectId":null,"parent":{"name":"o_racer","path":"objects/o_racer/o_racer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

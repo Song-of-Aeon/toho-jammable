@@ -26,3 +26,4 @@ vn = {
 reading = true;
 draw_set_font(ft_ronaldo)
 
+
