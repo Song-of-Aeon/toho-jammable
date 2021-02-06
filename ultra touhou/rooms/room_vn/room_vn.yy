@@ -15,6 +15,7 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"o_vn","path":"objects/o_vn/o_vn.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":640.0,"resourceVersion":"1.0","name":"inst_6D20B32E","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"roomchanger","path":"objects/roomchanger/roomchanger.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":448.0,"resourceVersion":"1.0","name":"inst_165B2A47","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.5,"scaleY":1.5,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1024.0,"y":96.0,"resourceVersion":"1.0","name":"graphic_4C90F94B","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -27,6 +28,7 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_6D20B32E","path":"rooms/room_vn/room_vn.yy",},
+    {"name":"inst_165B2A47","path":"rooms/room_vn/room_vn.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

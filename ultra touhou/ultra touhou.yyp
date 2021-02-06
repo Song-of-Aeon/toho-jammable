@@ -105,6 +105,7 @@
     {"id":{"name":"s_red","path":"sprites/s_red/s_red.yy",},"order":21,},
     {"id":{"name":"model_load","path":"scripts/model_load/model_load.yy",},"order":8,},
     {"id":{"name":"c_drivin","path":"scripts/c_drivin/c_drivin.yy",},"order":6,},
+    {"id":{"name":"roomchanger","path":"objects/roomchanger/roomchanger.yy",},"order":2,},
     {"id":{"name":"o_null","path":"objects/o_null/o_null.yy",},"order":4,},
     {"id":{"name":"s_roundbul","path":"sprites/s_roundbul/s_roundbul.yy",},"order":5,},
     {"id":{"name":"m_analogue_mirror","path":"sounds/m_analogue_mirror/m_analogue_mirror.yy",},"order":0,},
