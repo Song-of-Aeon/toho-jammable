@@ -24,7 +24,6 @@ if(keyboard_check(vk_down)){
 if(keyboard_check(vk_shift)){
 	drift = true;	
 }
+bruh++;
 x-=	lengthdir_x(acc,look_x);
 y-= lengthdir_y(acc,look_x);
-
-bruh++;
