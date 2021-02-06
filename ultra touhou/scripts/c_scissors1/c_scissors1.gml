@@ -13,7 +13,7 @@ function c_scissors1() {
 			}
 		}
 		var _step = function(this) {
-			if collision_point(this.x, this.y, o_danmaku_bullet, true, true) != this.id && collision_point(this.x, this.y, o_danmaku_bullet, true, true) != noone && !this.gone && this.y < 460 {
+			if collision_point(this.x, this.y, o_danmaku_bullet, true, true) != this.id && collision_point(this.x, this.y, o_danmaku_bullet, true, true) != noone && !this.gone && this.y < 460&&collision_point(this.x, this.y, o_danmaku_bullet, true, true).owner != o_damnakuPlayer.id {
 				this.direction = point_direction(this.x, this.y, o_damnakuPlayer.x, o_damnakuPlayer.y);
 				this.speed = 0;
 				this.gone = true;

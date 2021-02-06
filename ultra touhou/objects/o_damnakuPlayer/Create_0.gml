@@ -8,3 +8,4 @@ view_surface_id[0] = surf;
 #endregion
 shot = st_paper;
 score = 0; 
+invuln = 0;

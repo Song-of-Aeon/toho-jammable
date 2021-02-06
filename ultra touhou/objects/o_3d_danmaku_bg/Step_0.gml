@@ -15,4 +15,3 @@ spd = 0.1;
 maxspd = 7;
 
 
-asd+=0

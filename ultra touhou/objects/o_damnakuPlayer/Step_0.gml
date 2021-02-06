@@ -51,3 +51,6 @@ if(y  - (sprite_height/2) < 0){
 if(y + (sprite_height/2) > 480){
 	y = 480-(sprite_height/2)	
 }
+if(invuln){
+	invuln--;
+}

@@ -87,7 +87,7 @@
     {"id":{"name":"o_racer","path":"objects/o_racer/o_racer.yy",},"order":0,},
     {"id":{"name":"s_when_the_im","path":"sprites/s_when_the_im/s_when_the_im.yy",},"order":2,},
     {"id":{"name":"s_hitfx","path":"sprites/s_hitfx/s_hitfx.yy",},"order":25,},
-    {"id":{"name":"c_rockstep","path":"scripts/c_rockstep/c_rockstep.yy",},"order":16,},
+    {"id":{"name":"c_rock1","path":"scripts/c_rock1/c_rock1.yy",},"order":16,},
     {"id":{"name":"o_roll","path":"objects/o_roll/o_roll.yy",},"order":17,},
     {"id":{"name":"f_evilparse","path":"scripts/f_evilparse/f_evilparse.yy",},"order":32,},
     {"id":{"name":"c_occultcore","path":"scripts/c_occultcore/c_occultcore.yy",},"order":33,},

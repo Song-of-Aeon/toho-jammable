@@ -6,7 +6,7 @@
     "path": "folders/danmaku.yy",
   },
   "resourceVersion": "1.0",
-  "name": "c_rockstep",
+  "name": "c_rock1",
   "tags": [],
   "resourceType": "GMScript",
 }
