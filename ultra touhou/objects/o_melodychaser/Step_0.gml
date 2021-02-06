@@ -16,7 +16,7 @@ if songstarting {
         count += global.truetime;
     }
 	count += global.truetime;
-	if count >= 390 {
+	if count >= 490 {
         audio_play_sound(audio, 0, false);
         songstarting = false;
     }
@@ -34,12 +34,13 @@ bop[8] -= .05;
 bop[8] = clamp(bop[i], 1, 2);
 
 lanespacing = laneup - laneleft;
-var note = collision_line(0, bar-bpm*global.xmod/20-128, room_width, bar-bpm*global.xmod/20-128, o_note, false, false);
+var note = collision_line(laneleft, bar-bpm*global.xmod/20-96, laneright, bar-bpm*global.xmod/20-96, o_note, false, false);
 if note != noone {
     if note.object_index = o_freeze || note.object_index = o_roll {
         with note.tail {
             unusable = true;
             head = 0;
+			instance_destroy();
         }
         combo = 0;
         bop[8] = 1.3;
