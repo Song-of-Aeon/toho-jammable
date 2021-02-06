@@ -15,3 +15,5 @@ look_x = 180;
 look_y = 0;
 acc = 0;
 camera_set_update_script(view_camera[0], function (){});
+
+half = false

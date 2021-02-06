@@ -1,5 +1,5 @@
 if other.solid = true
 {
-	acc = acc/2;
+	acc = acc/10;
 acc = -acc;
 }
