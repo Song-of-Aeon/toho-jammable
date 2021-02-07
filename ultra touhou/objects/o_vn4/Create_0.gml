@@ -30,7 +30,7 @@ new Page("Seeya, kid-", wordspeed, function(){mam.image_index = mamEmotion.Neutr
 new Page("Wait, that's not...", wordspeed, function(){mam.image_index = mamEmotion.Confused; o_vn4.talking = 1; sum.image_alpha -= .02;}),
 new Wait(20,function(){}),
 new Page("Ah, whatever.", wordspeed, function(){mam.image_index = mamEmotion.Sans; o_vn4.talking = 1}),
-new Wait(20,function(){room = thetitle})
+new Wait(20,function(){global.partial = true; room = thetitle})
 
 
 

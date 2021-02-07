@@ -64,4 +64,4 @@ reading = true;
 talking = 0;
 
 audio_stop_all();
-music = audio_play_sound(m_analogue_mirror, 10, false);
+music = audio_play_sound(m_outside_conundrum, 10, false);

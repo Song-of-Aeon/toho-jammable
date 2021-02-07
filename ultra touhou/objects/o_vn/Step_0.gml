@@ -24,6 +24,8 @@ else{
 		}
 	}
 }
-if(audio_sound_get_track_position(music) >  28.875){
+if(audio_sound_get_track_position(music) >  28.875) && music = m_analogue_mirror {
 	audio_sound_set_track_position(music, 0.006);
+} else if audio_sound_get_track_position(music) >  97.223 && music = m_outside_conundrum {
+	audio_sound_set_track_position(music, 12.159);
 }

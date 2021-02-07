@@ -1,8 +1,8 @@
 host = false;
 var port = 1337;
-if(keyboard_check(vk_f1)){
+/*if(keyboard_check(vk_f1)){
 	host = true;	
-}
+}*/
 
 if(host){
 	server = network_create_server(network_socket_tcp,port,32);

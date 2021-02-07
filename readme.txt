@@ -38,4 +38,6 @@ racing game? i don't know, it's exactly what it looks like. go fast.
 made to look like old sega racing games. i've never played an old sega racing game.
 it's called "ULTIMATE CALIFORNIA DRIVER 1946". from what i understand, massive torii are common in california.
 
+by the way, an option called "Partial" appears once you beat the game once. unfortunately, the game doesn't save so you can't access this without beating the game every time you open it. i'm not going to make it save, so you can just press "P" on the main menu to access it without any restrictions. do try to beat the game normally first, though.
+
 - aeon

@@ -95,7 +95,7 @@ new Page("Never heard of 'em. Sounds great.", wordspeed, function(){mam.image_in
 new Wait(0,function(){makeSoulless(function(){var lay_id = layer_get_id("Background");var back_id = layer_background_get_id(lay_id);layer_background_alpha(back_id, layer_background_get_alpha(back_id)-0.01);},"gotoArcade");}),
 new Wait(150,function(){}),
 
-new Page("Here we are, the arcade.", wordspeed, function(){sum.image_index = sumEmotion.Smug; o_vn.talking = 0; destroySoulless("gotoArcade"); var lay_id = layer_get_id("Background");var back_id = layer_background_get_id(lay_id);layer_background_alpha(back_id, 0);}),
+new Page("Here we are, the arcade.", wordspeed, function(){sum.image_index = sumEmotion.Smug; o_vn.talking = 0; destroySoulless("gotoArcade"); var lay_id = layer_get_id("Background");var back_id = layer_background_get_id(lay_id);layer_background_alpha(back_id, 0); audio_stop_sound(music); music = audio_play_sound(m_outside_conundrum, 10, false);}),
 new Page("A wonderful display of the degeneration of art this society seeks,\nthe very epitome of meaningless and transient interactions,\nthe place it would not be wrong to call-", wordspeed, function(){sum.image_index = sumEmotion.Smug2}),
 new Page("Uh do you even want to be here?", wordspeed, function(){mam.image_index = mamEmotion.Confused; o_vn.talking = 1}),
 new Page("Well, it's fun sometimes.", wordspeed, function(){sum.image_index = sumEmotion.Happy; o_vn.talking = 0}),
