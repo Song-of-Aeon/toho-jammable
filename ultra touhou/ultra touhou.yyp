@@ -73,6 +73,7 @@
     {"id":{"name":"s_danmakuPlayer","path":"sprites/s_danmakuPlayer/s_danmakuPlayer.yy",},"order":1,},
     {"id":{"name":"o_ghos","path":"objects/o_ghos/o_ghos.yy",},"order":7,},
     {"id":{"name":"s_kaguya","path":"sprites/s_kaguya/s_kaguya.yy",},"order":8,},
+    {"id":{"name":"border6","path":"sprites/border6/border6.yy",},"order":19,},
     {"id":{"name":"vertex_format_create_simple","path":"scripts/vertex_format_create_simple/vertex_format_create_simple.yy",},"order":7,},
     {"id":{"name":"c_paper1","path":"scripts/c_paper1/c_paper1.yy",},"order":8,},
     {"id":{"name":"s_bulscissors","path":"sprites/s_bulscissors/s_bulscissors.yy",},"order":12,},
