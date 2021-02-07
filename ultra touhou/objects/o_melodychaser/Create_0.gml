@@ -1,4 +1,4 @@
-surf = surface_create(800,600);
+surf = surface_create(960,720);
 view_surface_id[0] = surf;
 
 
