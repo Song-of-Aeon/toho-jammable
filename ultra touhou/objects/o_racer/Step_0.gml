@@ -64,3 +64,8 @@ if(audio_sound_get_track_position(music) >  176.612){
 if(keyboard_check(vk_f9)){
 	lap =3;	
 }
+
+count++;
+if count % 30 = 0 && (keyboard_check(vk_up) || keyboard_check(vk_down)) {
+	audio_play_sound(se_wave, 0, false);
+}

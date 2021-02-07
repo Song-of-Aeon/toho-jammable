@@ -7,4 +7,5 @@ for(i = 0; i < instance_number(checkpoint); i++){
 if(yeah == true){
 		o_racer.lap++;
 		checkpoint.touched = false;
+		audio_play_sound(se_lap, 0, false);
 }

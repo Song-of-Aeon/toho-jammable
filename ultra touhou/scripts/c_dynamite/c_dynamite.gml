@@ -13,6 +13,9 @@ function c_dynamite() {
 		Bullet(_step, _create, x, y);
 	}
 	if boom {
+		if count % 3 {
+			audio_play_sound(se_shoot, 0, false);
+		}
 		var _create = function(this) {
 			this.speed = random(25)+15;
 			this.direction = random(180);

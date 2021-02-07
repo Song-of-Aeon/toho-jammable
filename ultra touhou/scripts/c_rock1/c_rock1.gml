@@ -1,5 +1,6 @@
 function c_rock1() {
 	if count % 90 = 0 {
+		audio_play_sound(se_shoot, 0, false);
 		var _create = function(this) {
 			this.direction = random(180)+180;
 			this.speed = 2;
@@ -11,6 +12,7 @@ function c_rock1() {
 		var _step = function(this) {
 			//console_log("SANSS");
 			if this.x > 640 || this.y > 480 || this.x < 0 || this.y < 0 {
+				audio_play_sound(se_shoot, 0, false);
 				repeat(10) {
 					var __create = function(this) {
 						this.direction = random(360);

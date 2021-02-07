@@ -1,5 +1,6 @@
 function c_paper1() {
 	if count % 600 = 0 {
+		audio_play_sound(se_shoot, 0, false);
 		var i = 0;
 		repeat (30) {
 			var _create = function(this) {

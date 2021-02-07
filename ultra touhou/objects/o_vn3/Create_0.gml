@@ -33,7 +33,7 @@ new Page("Meaningless games are fine by me.\nNothing you could give me that I co
 new Page("Very well.", wordspeed, function(){sum.image_index = sumEmotion.Smug; o_vn3.talking = 0}),
 new Page("Next game is a...", wordspeed, function(){o_vn3.talking = 0}),
 new Page("Wait, do you know what a car is?", wordspeed, function(){sum.image_index = sumEmotion.Confused; o_vn3.talking = 0}),
-new Page("Whells, metal, moves. That about right?", wordspeed, function(){o_vn3.talking = 1}),
+new Page("Wheels, metal, moves. That about right?", wordspeed, function(){o_vn3.talking = 1}),
 new Page("That's probably enough.\nThe game is a race using cars.", wordspeed, function(){o_vn3.talking = 0}),
 new Page("Now that I've flown, they kind of seem useless, though.\nCars, that is.", wordspeed, function(){sum.image_index = sumEmotion.Smug2; o_vn3.talking = 0}),
 new Page("Humans shouldn't get too used to leaving the ground.\nEventually, you won't be able to know it again until your death.", wordspeed, function(){mam.image_index = mamEmotion.Smug2; o_vn3.talking = 1}),

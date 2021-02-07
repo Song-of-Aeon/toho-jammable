@@ -26,11 +26,11 @@ new Page("Nothing special, nothing bad.\nHumans are talented at making trinkets.
 new Page("I much prefer the game you choose to play while\npretending to be a youkai.", wordspeed, function(){o_vn4.talking = 1}),
 new Page("Of course.\nImitation magic in pixels can't match the real thing.", wordspeed, function(){sum.image_index = sumEmotion.Smug2; o_vn4.talking = 0}),
 new Page("Good day, Ms. tanuki.", wordspeed, function(){sum.image_index = sumEmotion.Happy; o_vn4.talking = 0}),
-new Page("Seeya, kid-", wordspeed, function(){mam.image_index = mamEmotion.Neutral; o_vn4.talking = 1}),
+new Page("Seeya, kid-", wordspeed, function(){mam.image_index = mamEmotion.Neutral; o_vn4.talking = 1; makeSoulless(function(){sum.image_alpha-=0.02;},"sumDisappear");}),
 new Page("Wait, that's not...", wordspeed, function(){mam.image_index = mamEmotion.Confused; o_vn4.talking = 1; sum.image_alpha -= .02;}),
 new Wait(20,function(){}),
 new Page("Ah, whatever.", wordspeed, function(){mam.image_index = mamEmotion.Sans; o_vn4.talking = 1}),
-new Wait(20,function(){game_end()})
+new Wait(20,function(){room = thetitle})
 
 
 

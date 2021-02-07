@@ -37,6 +37,9 @@ if keyboard_check(vk_shift) {
 		script_execute(st_scissors2);
 	}
 }
+if keyboard_check_pressed(ord("Z")) + keyboard_check_pressed(ord("X")) + keyboard_check_pressed(ord("C")) {
+	audio_play_sound(se_bup, 0, false);
+}
 if(x  - (sprite_width/2) < 0){
  x = sprite_width/2;	
 }

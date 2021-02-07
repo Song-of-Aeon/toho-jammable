@@ -31,6 +31,7 @@ collide = function(){
 	{
 		acc = acc/10;
 		acc = -acc;
+		audio_play_sound(se_hit, 0, false);
 	}	
 }
 
@@ -38,3 +39,4 @@ driftdir = 0;
 camdist = 100;
 camheight = -25
  time = 0;
+ count = 0;

@@ -1,0 +1,13 @@
+Credits:
+Aeon - Code, rhythm minigame visuals, concept
+Anumania - Code, test sprites
+frogmask - Music, concept
+Jacoder23 - Visuals, concept
+
+Misc credits:
+GameMaker Studio 2.3 - engine
+StepMania - Mapping for rhythm minigame
+JynX - Scissors shottype concept (funny Len'en reference)
+Konami - Rhythm minigame concept (this is the second time I've ripped off DDR)
+Koninklijke Philips N.V - like three lines of dialogue (funny zelda cd-i reference)
+ZUN - the obvious

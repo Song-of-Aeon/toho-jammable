@@ -11,7 +11,7 @@ guy = string_copy(guy, string_length(guy)-6, 6);
 draw_text(126, 460, guy);
 
 draw_sprite(s_fontscore, 0, 520, 480);
-draw_text(526, 460, "HIGH: 080480");
+draw_text(526, 460, "HIGH: 050480");
 draw_set_halign(fa_left);
 if attack = 1 {
 	draw_sprite(s_janken, 2, 320, 34);

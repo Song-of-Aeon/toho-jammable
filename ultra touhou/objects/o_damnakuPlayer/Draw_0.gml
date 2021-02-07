@@ -19,7 +19,7 @@ if(keyboard_check(ord("Z"))) {
 
 if(focus){
 	draw_set_color(c_red);
-	draw_circle(x-1,y-1,3,false);	
+	draw_sprite(shitbox, 0, x, y);
 	draw_set_color(c_white);
 }
 

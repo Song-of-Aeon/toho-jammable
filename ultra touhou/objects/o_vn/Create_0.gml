@@ -33,6 +33,7 @@ enum sumEmotion {
 	Confused = 6
 }
 var wordspeed = 90;
+mam.visible = false;
 vn = {
 	pages : 	 [new Wait(0,function(){}),
 new Page("Gee, it sure is boring around here...", wordspeed, function(){mam.visible = false; sum.image_index = sumEmotion.Confused}),

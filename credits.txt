@@ -2,7 +2,8 @@ Credits:
 Aeon - Code, rhythm minigame visuals, concept
 Anumania - Code, test sprites
 frogmask - Music, concept
-Jacoder23 - Visuals, concept
+Jacoder23 - Pixelart, concept
+jamie - Backgrounds, itch.io banner
 
 Misc credits:
 GameMaker Studio 2.3 - engine
