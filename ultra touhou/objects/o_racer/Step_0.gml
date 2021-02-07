@@ -4,10 +4,10 @@ look_x += (keyboard_check(vk_right) - keyboard_check(vk_left))*((drift*1.8)+.6);
 look_y = 0
 
 var zz = -10;
-var xx = lengthdir_x(150,look_x )
-var yy = lengthdir_y(150,look_x)
+var xx = lengthdir_x(100,look_x )
+var yy = lengthdir_y(100,look_x)
 
-projmat = matrix_build_lookat(x+xx,y+yy,-40, x,y,-10, 0,0,-1);
+projmat = matrix_build_lookat(x+xx,y+yy,-25, x,y,-7, 0,0,-1);
 
 camera_set_view_mat(view_camera[0], projmat);
 spd = 0.03;
