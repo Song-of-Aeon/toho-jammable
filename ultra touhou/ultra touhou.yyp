@@ -95,6 +95,7 @@
     {"id":{"name":"o_3d_danmaku_bg","path":"objects/o_3d_danmaku_bg/o_3d_danmaku_bg.yy",},"order":18,},
     {"id":{"name":"s_purple","path":"sprites/s_purple/s_purple.yy",},"order":23,},
     {"id":{"name":"c_null","path":"scripts/c_null/c_null.yy",},"order":0,},
+    {"id":{"name":"morshu","path":"sprites/morshu/morshu.yy",},"order":18,},
     {"id":{"name":"o_danmaku_bullet","path":"objects/o_danmaku_bullet/o_danmaku_bullet.yy",},"order":4,},
     {"id":{"name":"o_damnakuPlayer","path":"objects/o_damnakuPlayer/o_damnakuPlayer.yy",},"order":0,},
     {"id":{"name":"s_bulstraight","path":"sprites/s_bulstraight/s_bulstraight.yy",},"order":0,},

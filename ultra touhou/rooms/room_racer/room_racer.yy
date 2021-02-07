@@ -43,6 +43,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"o_tree","path":"objects/o_tree/o_tree.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4320.0,"y":288.0,"resourceVersion":"1.0","name":"inst_132BF763","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_tree","path":"objects/o_tree/o_tree.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4576.0,"y":288.0,"resourceVersion":"1.0","name":"inst_4B0D555F","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"checkpoint","path":"objects/checkpoint/checkpoint.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":153.653046,"scaleX":0.125,"scaleY":0.625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2368.0,"y":800.0,"resourceVersion":"1.0","name":"inst_143C6B32","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_tree","path":"objects/o_tree/o_tree.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3424.0,"y":4320.0,"resourceVersion":"1.0","name":"inst_56EE79CE","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"s_road","path":"sprites/s_road/s_road.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":85.00001,"scaleY":6.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":960.0,"y":224.0,"resourceVersion":"1.0","name":"graphic_4E64D0FE","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -619,6 +620,7 @@
     {"name":"inst_132BF763","path":"rooms/room_racer/room_racer.yy",},
     {"name":"inst_4B0D555F","path":"rooms/room_racer/room_racer.yy",},
     {"name":"inst_143C6B32","path":"rooms/room_racer/room_racer.yy",},
+    {"name":"inst_56EE79CE","path":"rooms/room_racer/room_racer.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
