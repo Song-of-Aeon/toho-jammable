@@ -85,9 +85,9 @@ if !instance_exists(o_note) && danced {
     countwo++;	
     if countwo >= 300 {
 		if realscore >= o_troublemaker.realscore {
-			instance_create(x, y, o_won);
+			instance_create(0, 0, o_won);
 		} else {
-			instance_create(x, y, o_lost);
+			instance_create(0, 0, o_lost);
 		}
 		room = room_vn3;
 	}
