@@ -115,7 +115,7 @@ new Wait(20,function(){}),
 new Page("Whatever. Just follow me!", wordspeed, function(){sum.image_index = sumEmotion.Smug}),
 new Page("Best 2 out of 3 games wins!", wordspeed, function(){}),
 new Wait(200,function(){instance_create(0,0,Object44).sprite_index = dan}),
-new Wait(20,function(){room = room_danmaku})
+new Wait(20,function(){room = room_danmaku; })
 
 
 
