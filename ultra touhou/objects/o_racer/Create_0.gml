@@ -35,3 +35,6 @@ collide = function(){
 }
 
 driftdir = 0;
+camdist = 100;
+camheight = -25
+ time = 0;

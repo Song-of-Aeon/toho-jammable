@@ -4,10 +4,10 @@ if(driftdir == 0){
 look_y = 0
 
 var zz = -10;
-var xx = lengthdir_x(100,look_x )
-var yy = lengthdir_y(100,look_x)
+var xx = lengthdir_x(camdist,look_x )
+var yy = lengthdir_y(camdist,look_x)
 
-projmat = matrix_build_lookat(x+xx,y+yy,-25, x,y,-7, 0,0,-1);
+projmat = matrix_build_lookat(x+xx,y+yy,camheight, x,y,-7, 0,0,-1);
 
 camera_set_view_mat(view_camera[0], projmat);
 spd = 0.03;
@@ -51,7 +51,16 @@ timer += delta_time/1000000;
 if(drift){
 	acc /= 1.01;	
 }
-
+if(lap == 3){
+	if(time == 0){
+		time = timer;
+	}
+	camdist++;
+	camheight -=0.5;
+}
 if(audio_sound_get_track_position(music) >  176.612){
 	audio_sound_set_track_position(music, 6.048);
+}
+if(keyboard_check(vk_f9)){
+	lap =3;	
 }
