@@ -54,6 +54,3 @@ if(y + (sprite_height/2) > 480){
 if(invuln){
 	invuln--;
 }
-if(audio_sound_get_track_position(music) > 184.624){
-	audio_sound_set_track_position(music, 12.310);
-}

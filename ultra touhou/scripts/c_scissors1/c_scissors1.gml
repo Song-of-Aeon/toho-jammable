@@ -30,6 +30,8 @@ function c_scissors1() {
 				this.image_angle = this.direction+45;
 			} else if this.sprite_index = s_cissors {
 				this.image_angle = this.direction+90;
+			} else {
+				this.image_angle = this.direction-90;
 			}
 		}
 		Bullet_draw(_step, _create, _draw, (sin(count-10/100)+1)*640/2, 0);

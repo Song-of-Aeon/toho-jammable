@@ -1,5 +1,5 @@
 function c_rock1() {
-	if count % 20 = 0 {
+	if count % 60 = 0 {
 		var _create = function(this) {
 			this.direction = random(180)+180;
 			this.speed = 2;
@@ -9,34 +9,24 @@ function c_rock1() {
 			this.image_yscale = 2;
 		}
 		var _step = function(this) {
-			this.bitches = collision_point(this.x, this.y, o_danmaku_bullet, false, true);
-			if this.bitches.owner == o_damnakuPlayer.id {
-				
-				this.hp -= this.bitches.damage;
-				instance_destroy(this.bitches);
-			}
-			if this.hp <= 0 {
+			//console_log("SANSS");
+			if this.x > 640 || this.y > 480 || this.x < 0 || this.y < 0 {
 				repeat(10) {
 					var __create = function(this) {
 						this.direction = random(360);
-						this.speed = 5;
+						this.speed = 3.5;
 						this.hp = 20;
 						this.sprite_index = s_shardbul;
 					}
 					var __step = function(this) {
-						this.bitches = collision_point(this.x, this.y, o_danmaku_bullet, false, true);
-						if this.bitches.owner = o_damnakuPlayer {
-							this.hp -= this.bitches.damage;
-							instance_destroy(this.bitches);
-						}
-						if this.hp <= 0 {
+						if this.x > 650 || this.y > 490 || this.x < -10 || this.y < -10 {
 							var i = 60;
 							repeat(10) {
 								var ___create = function(this) {
 									this.speed = 0;
 								}
 								var ___step = function(this) {
-									speed += .1;
+									this.speed += .05;
 								}
 								var guy = Bullet(___step, ___create, this.x, this.y);
 								guy.direction = i;

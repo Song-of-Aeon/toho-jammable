@@ -81,6 +81,7 @@
     {"id":{"name":"o_vn3","path":"objects/o_vn3/o_vn3.yy",},"order":11,},
     {"id":{"name":"st_scissors","path":"scripts/st_scissors/st_scissors.yy",},"order":11,},
     {"id":{"name":"s_road","path":"sprites/s_road/s_road.yy",},"order":6,},
+    {"id":{"name":"c_dynamite","path":"scripts/c_dynamite/c_dynamite.yy",},"order":21,},
     {"id":{"name":"st_paper2","path":"scripts/st_paper2/st_paper2.yy",},"order":14,},
     {"id":{"name":"m_outside_conundrum","path":"sounds/m_outside_conundrum/m_outside_conundrum.yy",},"order":2,},
     {"id":{"name":"s_wheel","path":"sprites/s_wheel/s_wheel.yy",},"order":19,},
