@@ -21,6 +21,7 @@
     {"id":{"name":"fucken_uhh_wall","path":"sprites/fucken_uhh_wall/fucken_uhh_wall.yy",},"order":9,},
     {"id":{"name":"o_vn4","path":"objects/o_vn4/o_vn4.yy",},"order":12,},
     {"id":{"name":"o_danmaku_enemy","path":"objects/o_danmaku_enemy/o_danmaku_enemy.yy",},"order":6,},
+    {"id":{"name":"s_bulpaper","path":"sprites/s_bulpaper/s_bulpaper.yy",},"order":13,},
     {"id":{"name":"race_collision","path":"objects/race_collision/race_collision.yy",},"order":4,},
     {"id":{"name":"c_bpmbuster","path":"scripts/c_bpmbuster/c_bpmbuster.yy",},"order":19,},
     {"id":{"name":"m_youkai_racetrack","path":"sounds/m_youkai_racetrack/m_youkai_racetrack.yy",},"order":4,},

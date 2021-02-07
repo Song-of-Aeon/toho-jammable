@@ -15,9 +15,8 @@ function c_dynamite() {
 	}
 	if boom {
 		var _create = function(this) {
-			this.speed = random(25)+17;
+			this.speed = random(25)+15;
 			this.direction = random(180);
-			this.sprite_index = s_roundbul;
 		}
 		var _step = function(this) {
 			this.speed = this.speed/1.1;
@@ -42,6 +41,7 @@ function c_dynamite() {
 		var _create = function(this) {
 			this.speed = 3;
 			this.direction = 180;
+			this.sprite_index = s_shardbul;
 		}
 		Bullet(_step, _create, 640, sin(count)*100+50+10);
 	}

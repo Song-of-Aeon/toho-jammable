@@ -4,6 +4,8 @@ function st_paper() {
 			this.speed = 4;
 			this.dirrection = 10+(random(40)-20);
 			this.damage = 2;
+			this.sprite_index = s_bulpaper;
+			this.image_alpha = .5;
 		}
 		var _step = function(this) {
 			this.dirrection += 1.6;
@@ -15,6 +17,8 @@ function st_paper() {
 			this.speed = 4;
 			this.dirrection = 10+(random(40)-20);
 			this.damage = 2;
+			this.sprite_index = s_bulpaper;
+			this.image_alpha = .5;
 		}
 		var _step = function(this) {
 			this.dirrection += 1.6;
@@ -29,6 +33,8 @@ function st_paper() {
 			var _create = function(this) {
 				this.speed = 20;
 				this.damage = 2;
+				this.sprite_index = s_bulpaper;
+				this.image_alpha = .5;
 			}
 			var _step = function(this) {}
 			guy = Bullet(_step,_create, x, y);
