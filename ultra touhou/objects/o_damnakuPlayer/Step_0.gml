@@ -9,17 +9,16 @@ else{
 	focus = false;
 	spd = 3;	
 }
-if(keyboard_check(vk_left)){
-	x-=spd;
-}
-if(keyboard_check(vk_right)){
-	x+=spd;
-}
-if(keyboard_check(vk_up)){
-	y-=spd;
-}
-if(keyboard_check(vk_down)){
-	y+=spd;
+hput = keyboard_check(vk_right) - keyboard_check(vk_left);
+vput = keyboard_check(vk_down) - keyboard_check(vk_up);
+x += spd*hput;
+y += spd*vput;
+if hput = 0 {
+	sprite_index = s_player;
+} else if hput = 1 {
+	sprite_index = s_playerright;
+} else {
+	sprite_index = s_playerleft;
 }
 if keyboard_check(vk_shift) {
 	if(keyboard_check(ord("Z"))) {

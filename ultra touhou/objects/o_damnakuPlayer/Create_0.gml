@@ -9,6 +9,7 @@ view_surface_id[0] = surf;
 shot = st_paper;
 score = 0; 
 invuln = 0;
+image_speed = .1;
 
 alpha = 5;
 audio_stop_all();
