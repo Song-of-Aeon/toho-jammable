@@ -4,6 +4,7 @@ function st_rock() {
 		var _create = function(this) {
 			this.speed = 4;
 			this.direction = 90;
+			this.damage = 6;
 		}
 		var _step = function(this) {
 			this.speed = this.speed*1.1;
@@ -11,6 +12,7 @@ function st_rock() {
 				var __create = function(this) {
 					this.speed = 4;
 					this.direction = 80;
+					this.damage = 6;
 				}
 				var __step = function(this) {
 					this.speed = this.speed*1.1;
@@ -18,6 +20,7 @@ function st_rock() {
 						var ___create = function(this) {
 							this.speed = 4;
 							this.direction = 80;
+							this.damage = 6;
 						}
 						var ___step = function(this) {
 							this.speed = this.speed*1.1;
@@ -31,6 +34,7 @@ function st_rock() {
 						var ___create = function(this) {
 							this.speed = 4;
 							this.direction = 100;
+							this.damage = 6;
 						}
 						var ___step = function(this) {
 							this.speed = this.speed*1.1;
@@ -53,6 +57,7 @@ function st_rock() {
 				var __create = function(this) {
 					this.speed = 4;
 					this.direction = 100;
+					this.damage = 6;
 				}
 				var __step = function(this) {
 					this.speed = this.speed*1.1;
@@ -60,6 +65,7 @@ function st_rock() {
 						var ___create = function(this) {
 							this.speed = 4;
 							this.direction = 80;
+							this.damage = 6;
 						}
 						var ___step = function(this) {
 							this.speed = this.speed*1.1;
@@ -73,6 +79,7 @@ function st_rock() {
 						var ___create = function(this) {
 							this.speed = 4;
 							this.direction = 100;
+							this.damage = 6;
 						}
 						var ___step = function(this) {
 							this.speed = this.speed*1.1;
