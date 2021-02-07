@@ -10,7 +10,7 @@ gpu_set_alphatestenable(true);
 	camera_set_proj_mat(cam, projMat);
 	view_set_camera(0,cam);
 #endregion
-
+application_surface_draw_enable(false);
 look_x = 180;
 look_y = 0;
 acc = 0;
