@@ -30,7 +30,25 @@ new Page("Seeya, kid-", wordspeed, function(){mam.image_index = mamEmotion.Neutr
 new Page("Wait, that's not...", wordspeed, function(){mam.image_index = mamEmotion.Confused; o_vn4.talking = 1; sum.image_alpha -= .02;}),
 new Wait(20,function(){}),
 new Page("Ah, whatever.", wordspeed, function(){mam.image_index = mamEmotion.Sans; o_vn4.talking = 1}),
-new Wait(20,function(){global.partial = true; room = thetitle})
+new Wait(20,function(){
+	global.partial = true; 
+	
+	
+	}),
+	new Wait(0, function(){
+		
+		var inst = instance_create(200,200,Object44);
+		try{
+		if(global.chungus >= 2){inst.sprite_index = ending_good};
+		else{ inst.sprite_index = ending_bad};
+		}
+		catch(e){
+			inst.sprite_index = ending_bad
+		}
+	}),
+new Wait(200,function(){}),
+new Wait(0,function(){room = thetitle;}),
+	
 
 
 

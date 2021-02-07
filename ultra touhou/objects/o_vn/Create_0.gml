@@ -1,5 +1,6 @@
 /// @description Insert description here
 draw_set_font(ft_yeah);
+global.chungus = 0;
 // You can write your code in this editor
 Page = function(_text, _spd, _onFinish)  constructor
 {
@@ -8,6 +9,7 @@ Page = function(_text, _spd, _onFinish)  constructor
 	spd = _spd;
 	onFinish = _onFinish;
 }
+application_surface_draw_enable(true);
 Wait = function(howlong, func) constructor
 {
 	wait = true;
