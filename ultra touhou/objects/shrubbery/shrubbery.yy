@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "morshu",
+    "path": "sprites/morshu/morshu.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
