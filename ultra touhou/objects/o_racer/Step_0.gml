@@ -10,13 +10,13 @@ var yy = lengthdir_y(150,look_x)
 projmat = matrix_build_lookat(x+xx,y+yy,-40, x,y,-10, 0,0,-1);
 
 camera_set_view_mat(view_camera[0], projmat);
-spd = 0.01;
+spd = 0.03;
 maxspd = 7;
-if(keyboard_check(vk_up)){
+if(keyboard_check(vk_up)) && acc < 15 {
 	acc+=spd;	
 }
 else{
-	acc = acc/1.02;
+	//acc = acc/1.02;
 }
 if(keyboard_check(vk_down)){
 	acc-=spd*10;	

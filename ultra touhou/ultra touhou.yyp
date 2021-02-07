@@ -5,6 +5,7 @@
     {"id":{"name":"st_funky","path":"scripts/st_funky/st_funky.yy",},"order":12,},
     {"id":{"name":"g1","path":"sprites/g1/g1.yy",},"order":3,},
     {"id":{"name":"o_stay","path":"objects/o_stay/o_stay.yy",},"order":16,},
+    {"id":{"name":"bg_bgbg","path":"sprites/bg_bgbg/bg_bgbg.yy",},"order":23,},
     {"id":{"name":"lapper","path":"objects/lapper/lapper.yy",},"order":14,},
     {"id":{"name":"o_hitfx","path":"objects/o_hitfx/o_hitfx.yy",},"order":26,},
     {"id":{"name":"sum","path":"objects/sum/sum.yy",},"order":6,},

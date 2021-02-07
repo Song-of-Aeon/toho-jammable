@@ -16,7 +16,7 @@ if songstarting {
         count += global.truetime;
     }
 	count += global.truetime;
-	if count >= 490 {
+	if count >= 990 {
         audio_play_sound(audio, 0, false);
         songstarting = false;
     }
@@ -79,7 +79,9 @@ infoalpha = clamp(infoalpha, 0, 4);
 
 if !instance_exists(o_note) && danced {
     countwo++;
-    //console_log("it's rude to talk about someone who's listening.");
+    if countwo >= 300 {
+		room = room_vn3;
+	}
 }
 if global.controller {
     gamepad_set_vibration(0, rumble[0]+rumble[1]/1.5+rumble[2]/2.5, rumble[3]+rumble[2]/1.5+rumble[1]/2.5);

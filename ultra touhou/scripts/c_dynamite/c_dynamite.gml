@@ -45,5 +45,5 @@ function c_dynamite() {
 		}
 		Bullet(_step, _create, 640, sin(count)*100+50+10);
 	}
-	hp -= 12;
+	hp -= 24;
 }
