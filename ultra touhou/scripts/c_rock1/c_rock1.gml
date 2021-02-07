@@ -1,5 +1,5 @@
 function c_rock1() {
-	if count % 60 = 0 {
+	if count % 90 = 0 {
 		var _create = function(this) {
 			this.direction = random(180)+180;
 			this.speed = 2;

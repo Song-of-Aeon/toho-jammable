@@ -6,7 +6,7 @@ count += global.truetime;
 
 sprite_index = s_roll;
 
-if count >= 185 {
+if count >= 435 {
     y += vspd*global.truetime;
 }
 

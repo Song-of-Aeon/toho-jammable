@@ -24,7 +24,7 @@ function st_enemyinput() {
 		pright = righty;
 	}
 	if offset <= 0 {
-		offset = random(180);
+		offset = random(140);
 	}
 	offset--;
 }
