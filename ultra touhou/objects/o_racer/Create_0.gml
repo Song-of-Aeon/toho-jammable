@@ -22,3 +22,4 @@ drifting = false;
 timer = 0;
 lap = 0;
 global.truetime = c_timebuster();
+music = audio_play_sound(m_youkai_racetrack, 10, false);

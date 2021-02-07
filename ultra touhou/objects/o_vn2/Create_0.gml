@@ -14,23 +14,7 @@ Wait = function(howlong, func) constructor
 	spd = 60;
 	onFinish = func
 }
-enum mamEmotion {
-	Sans = 0,
-	Smug2 = 1,
-	Smug = 2,
-	Confused = 3,
-	Mild = 4,
-	Neutral = 6
-}
-enum sumEmotion {
-	Surprised = 0,
-	Smug2 = 1,
-	Smug = 2,
-	i_didnt_use_this_one = 3,
-	Happy = 4,
-	Disappointed = 5,
-	Confused = 6
-}
+
 var wordspeed = 90;
 vn = {
 	pages : 	 [new Wait(0,function(){}),

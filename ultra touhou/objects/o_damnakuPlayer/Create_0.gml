@@ -9,3 +9,4 @@ view_surface_id[0] = surf;
 shot = st_paper;
 score = 0; 
 invuln = 0;
+music = audio_play_sound(m_futatsuiwa_from_arcadia, 10, false);
