@@ -152,7 +152,7 @@ sum "Wait, do you know what a car is?"
 mam "Wheels, metal, moves. That about right?"
 sum "That's probably enough. The game is a race using cars."
 sum smug2
-sum "Now that I've flown, they kind of seem useless, though."
+sum "Now that I've flown, they kind of seem useless, though. Cars, that is."
 mam smug2
 mam "Humans shouldn't get too used to leaving the ground. Eventually, you won't be able to know it again until your death."
 sum confused

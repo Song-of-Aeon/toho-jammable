@@ -14,35 +14,16 @@ Wait = function(howlong, func) constructor
 	spd = 60;
 	onFinish = func
 }
-enum mamEmotion {
-	Sans = 0,
-	Smug2 = 1,
-	Smug = 2,
-	Confused = 3,
-	Mild = 4,
-	Neutral = 6
-}
-enum sumEmotion {
-	Surprised = 0,
-	Smug2 = 1,
-	Smug = 2,
-	i_didnt_use_this_one = 3,
-	Happy = 4,
-	Disappointed = 5,
-	Confused = 6
-}
 var wordspeed = 90;
 vn = {
 	pages : 	 [new Wait(0,function(){}),
 new Page("So, what did you think?", wordspeed, function(){sum.image_index = sumEmotion.Happy; o_vn.talking = 0}),
-new Page("", wordspeed, function(){mam.image_index = mamEmotion.Smug; o_vn.talking = 1}),
-new Page("", wordspeed, function(){sum.image_index = sumEmotion.Surprised; o_vn.talking = 0}),
-new Page("", wordspeed, function(){mam.image_index = mamEmotion.Smug2; o_vn.talking = 1}),
-new Page("", wordspeed, function(){sum.image_index = sumEmotion.Confused; o_vn.talking = 0}),
-new Page("", wordspeed, function(){sum.image_index = sumEmotion.Happy; o_vn.talking = 0}),
-new Page("", wordspeed, function(){o_vn.talking = 0}),
-
-
+new Page("Nothing like the real thing, but that's fine.", wordspeed, function(){mam.image_index = mamEmotion.Smug; o_vn.talking = 1}),
+new Page("You picked it up pretty easily. Have you played a video game before?", wordspeed, function(){sum.image_index = sumEmotion.Surprised; o_vn.talking = 0}),
+new Page("Not even once.", wordspeed, function(){mam.image_index = mamEmotion.Smug2; o_vn.talking = 1}),
+new Page("Hm. Anyway, next up is a music game.", wordspeed, function(){sum.image_index = sumEmotion.Confused; o_vn.talking = 0}),
+new Page("We can play at the same time on this!", wordspeed, function(){sum.image_index = sumEmotion.Happy; o_vn.talking = 0}),
+new Page("This might be a bit less intuitive for you, but it should make sense.", wordspeed, function(){o_vn.talking = 0}),
 new Wait(20,function(){room = fantasy_heaven})
 
 
