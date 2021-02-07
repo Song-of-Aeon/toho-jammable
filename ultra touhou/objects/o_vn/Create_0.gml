@@ -14,16 +14,36 @@ Wait = function(howlong, func) constructor
 	spd = 60;
 	onFinish = func
 }
-	
+enum mamEmotion{
+	Curious1 = 5,
+	Curious2 = 4,
+	Disappointed = 3,
+	HappySmug = 2,
+	Happy = 1,
+	Disappointed2 = 0
+}
+enum sumEmotion{
+	Confused = 6,
+	Disappointed  =5,
+	Excited = 4,
+	Happy = 3,
+	Happy2 = 2,
+	Smug = 1,
+	Surprised = 0
+}
+var wordspeed = 30;
 vn = {
-	pages : 	 [new Page("trolled XD", 30, function(){makeSoulless(function(){show_debug_message("poggers")},"test")}),
-						new Wait(70,function(){removeSoulless("test")}),
-						new Page("rofl owned loser", 30, function(){})],
+	pages : 	 [new Wait(0,function(){mam.visible = false; sum.image_index = sumEmotion.Confused}),
+new Page("Gee, it sure is boring around here...", wordspeed, function(){}),
+new Wait(70,function(){}),
+new Page("Is this the supposed peace all busy students should strive for?", wordspeed, function(){}),
+new Wait(70,function(){}),
+new Page("rofl owned loser", wordspeed, function(){})],
 	onPage:  0,
 	onWord: 0,
 	onFinish : function(){room = room_danmaku}
 }
 reading = true;
 draw_set_font(ft_ronaldo)
-
+talking = 0;
 
