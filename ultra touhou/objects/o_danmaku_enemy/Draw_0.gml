@@ -6,7 +6,7 @@ draw_sprite(s_fontscore, 0, 120, 480);
 draw_set_color(c_white);
 var guy2 = score;
 var guy = string_copy(string(floor(guy2)), 0, 10);
-guy = "00000000000"+guy;
+guy = "00000000000"+guy+"0";
 guy = string_copy(guy, string_length(guy)-6, 6);
 draw_text(126, 460, guy);
 
