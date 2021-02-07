@@ -1,5 +1,5 @@
 {
-  "compression": 3,
+  "compression": 0,
   "volume": 1.0,
   "preload": false,
   "bitRate": 128,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "m_outside_conundrum.ogg",
-  "duration": 104.405205,
+  "soundFile": "sfx_High_Score.ogg",
+  "duration": 5.633617,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "m_outside_conundrum",
+  "name": "sfx_High_Score",
   "tags": [],
   "resourceType": "GMSound",
 }
