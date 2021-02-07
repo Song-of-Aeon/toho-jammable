@@ -54,3 +54,4 @@ if(y + (sprite_height/2) > 480){
 if(invuln){
 	invuln--;
 }
+score = max(0,score);
