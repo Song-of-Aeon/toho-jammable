@@ -82,8 +82,13 @@ infoalpha -= .03;
 infoalpha = clamp(infoalpha, 0, 4);
 
 if !instance_exists(o_note) && danced {
-    countwo++;
+    countwo++;	
     if countwo >= 300 {
+		if realscore >= o_troublemaker.realscore {
+			instance_create(o_won);
+		} else {
+			instance_create(o_lost);
+		}
 		room = room_vn3;
 	}
 }
