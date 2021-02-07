@@ -6,7 +6,7 @@ draw = function() {
 };
 c = 0;
 count = 0;
-image_speed = 0;
+image_speed = .1;
 enum rps {
 	rock = 0,
 	paper = 1,
