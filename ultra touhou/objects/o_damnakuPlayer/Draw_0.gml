@@ -23,5 +23,5 @@ if(focus){
 	draw_set_color(c_white);
 }
 
-draw_text(0,0,score);
+//draw_text(0,0,score);
 
