@@ -212,6 +212,7 @@
     {"folderPath":"folders/Objects/mamg.yy","order":8,"resourceVersion":"1.0","name":"mamg","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/sumg.yy","order":9,"resourceVersion":"1.0","name":"sumg","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Raceism/foilage.yy","order":23,"resourceVersion":"1.0","name":"foilage","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sounds/s.yy","order":5,"resourceVersion":"1.0","name":"s","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

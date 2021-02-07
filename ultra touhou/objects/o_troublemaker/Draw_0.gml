@@ -1,5 +1,5 @@
 
-draw_sprite(songbg, 0, 0, 0);
+//draw_sprite(songbg, 0, 0, 0);
 
 draw_set_colour(c_white);
 //draw_sprite(s_scoreshow, 0, 0, 0);

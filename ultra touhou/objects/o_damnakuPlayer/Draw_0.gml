@@ -10,11 +10,11 @@ draw_self();
 
 
 if(keyboard_check(ord("Z"))) {
-	draw_sprite(s_janken, 0, 0, 448);
+	draw_sprite(s_janken, 0, 320, 480);
 } else if(keyboard_check(ord("X"))) {
-	draw_sprite(s_janken, 1, 0, 448);
+	draw_sprite(s_janken, 1, 320, 480);
 } else if(keyboard_check(ord("C"))) {
-	draw_sprite(s_janken, 2, 0, 448);
+	draw_sprite(s_janken, 2, 320, 480);
 }
 
 if(focus){

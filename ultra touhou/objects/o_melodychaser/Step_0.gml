@@ -15,10 +15,12 @@ if !danced {
 if songstarting {
     timecounter += delta_time;
     if timecounter/1000 >= offset {
-        count += global.truetime;
+        if count > 2 {count += global.truetime;
+} else {
+	count += 1;
+}
     }
-	count += global.truetime;
-	if count >= 990 {
+	if count >= 190 {
         audio_play_sound(audio, 0, false);
         songstarting = false;
     }

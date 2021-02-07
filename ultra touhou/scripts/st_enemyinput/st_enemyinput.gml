@@ -26,5 +26,5 @@ function st_enemyinput() {
 	if offset <= 0 {
 		offset = random(140);
 	}
-	offset--;
+	offset -= 1.3;
 }
