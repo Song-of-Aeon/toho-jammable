@@ -8,9 +8,9 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 11,
-  "bbox_right": 18,
-  "bbox_top": 10,
-  "bbox_bottom": 18,
+  "bbox_right": 12,
+  "bbox_top": 13,
+  "bbox_bottom": 24,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"a1094ab6-eba4-4dcd-a143-bda88694cab9","path":"sprites/s_cissors/s_cissors.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a1094ab6-eba4-4dcd-a143-bda88694cab9","path":"sprites/s_cissors/s_cissors.yy",},"LayerId":{"name":"956a106c-3999-4e26-80c5-69f4e935e19e","path":"sprites/s_cissors/s_cissors.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"a1094ab6-eba4-4dcd-a143-bda88694cab9","path":"sprites/s_cissors/s_cissors.yy",},"LayerId":{"name":"fc551c1c-5529-454a-85fc-5de4282914ff","path":"sprites/s_cissors/s_cissors.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"a1094ab6-eba4-4dcd-a143-bda88694cab9","path":"sprites/s_cissors/s_cissors.yy",},"LayerId":{"name":"956a106c-3999-4e26-80c5-69f4e935e19e","path":"sprites/s_cissors/s_cissors.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"s_cissors","path":"sprites/s_cissors/s_cissors.yy",},"resourceVersion":"1.0","name":"a1094ab6-eba4-4dcd-a143-bda88694cab9","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"60857bb9-6ed5-4dc0-9caa-006810a42e7f","path":"sprites/s_cissors/s_cissors.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"60857bb9-6ed5-4dc0-9caa-006810a42e7f","path":"sprites/s_cissors/s_cissors.yy",},"LayerId":{"name":"fc551c1c-5529-454a-85fc-5de4282914ff","path":"sprites/s_cissors/s_cissors.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
