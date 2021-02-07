@@ -56,6 +56,7 @@
     {"id":{"name":"sm_drivin","path":"scripts/sm_drivin/sm_drivin.yy",},"order":5,},
     {"id":{"name":"collision_line_first","path":"scripts/collision_line_first/collision_line_first.yy",},"order":5,},
     {"id":{"name":"s_grass","path":"sprites/s_grass/s_grass.yy",},"order":5,},
+    {"id":{"name":"o_vn2","path":"objects/o_vn2/o_vn2.yy",},"order":10,},
     {"id":{"name":"s_boss","path":"sprites/s_boss/s_boss.yy",},"order":3,},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":1,},
     {"id":{"name":"st_paper","path":"scripts/st_paper/st_paper.yy",},"order":10,},

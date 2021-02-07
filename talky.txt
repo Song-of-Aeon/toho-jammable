@@ -45,9 +45,9 @@ sum "I'm not sure I want to hear that from someone who tried to kill me..."
 mam smug
 mam "Ah, hogwash. That's just danmaku play."
 mam sans
-mam "You made it out in the end, anyway.
+mam "Made it out in the end anyway, didn'tcha?"
 mam neutral
-mam "Besides, you approached me today. Got something to say?"
+mam "But you approached me today. Got something to say?"
 sum happy
 sum "Hmm... not in particular. I just remembered you asked for a tour of the outside world during that incident, though."
 sum "I've got the day off, and I'm way too awake to go to Gensokyo right now."
@@ -84,7 +84,7 @@ sum happy
 sum "Well, it's fun sometimes."
 
 mam neutral
-mam "So, what are we doing?"
+mam "What do we do here?"
 sum confused
 sum "To explain it to an ancient youkai..."
 sum happy
