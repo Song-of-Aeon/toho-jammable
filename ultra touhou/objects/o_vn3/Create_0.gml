@@ -39,7 +39,8 @@ new Page("Now that I've flown, they kind of seem useless, though.\nCars, that is
 new Page("Humans shouldn't get too used to leaving the ground.\nEventually, you won't be able to know it again until your death.", wordspeed, function(){mam.image_index = mamEmotion.Smug2; o_vn3.talking = 1}),
 new Page("What is that supposed to be about, Icarus?\nI know my limits.", wordspeed, function(){sum.image_index = sumEmotion.Confused; o_vn3.talking = 0}),
 new Page("Then on with the games.", wordspeed, function(){mam.image_index = mamEmotion.Sans; o_vn3.talking = 1}),
-new Wait(20,function(){room = room_racer})
+new Wait(200,function(){instance_create(0,0,Object44).sprite_index = car79}),
+new Wait(20,function(){room = room_racer; })
 
 
 
