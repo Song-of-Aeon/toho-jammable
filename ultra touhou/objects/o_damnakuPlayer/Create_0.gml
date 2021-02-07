@@ -11,3 +11,5 @@ score = 0;
 invuln = 0;
 
 alpha = 5;
+audio_stop_all();
+music = audio_play_sound(m_futatsuiwa_from_arcadia, 10, false);

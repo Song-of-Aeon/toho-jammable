@@ -55,3 +55,7 @@ if(invuln){
 	invuln--;
 }
 score = max(0,score);
+
+if(audio_sound_get_track_position(music) >  184.624){
+	audio_sound_set_track_position(music, 12.310);
+}

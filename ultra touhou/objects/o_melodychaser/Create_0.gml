@@ -54,3 +54,5 @@ rumble = array_create(4);
 
 danced = false;
 global.receptor = s_receptor;
+
+audio_stop_all();
