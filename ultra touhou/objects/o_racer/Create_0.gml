@@ -21,3 +21,4 @@ surface_resize(application_surface,320,200);
 drifting = false;
 timer = 0;
 lap = 0;
+global.truetime = c_timebuster();
