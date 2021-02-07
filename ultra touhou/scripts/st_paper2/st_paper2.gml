@@ -1,7 +1,7 @@
 function st_paper2() {
 	if timer % 3 = 0 {
 		var _create = function(this) {
-			this.damage = 2;
+			this.damage = 2.5;
 			this.speed = 4;
 			this.dirrection = 40+(random(40)-20);
 			this.sprite_index = s_bulpaper;
@@ -14,7 +14,7 @@ function st_paper2() {
 		}	
 		Bullet(_step,_create, x, y);
 		var _create = function(this) {
-			this.damage = 2;
+			this.damage = 2.5;
 			this.speed = 4;
 			this.dirrection = 40+(random(40)-20);
 			this.sprite_index = s_bulpaper;
@@ -32,7 +32,7 @@ function st_paper2() {
 		repeat(4) {
 			var _create = function(this) {
 				this.speed = 20;
-				this.damage = 2;
+				this.damage = 2.5;
 				this.sprite_index = s_bulpaper;
 				this.image_alpha = .5;
 			}

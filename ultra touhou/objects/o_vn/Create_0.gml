@@ -101,8 +101,8 @@ new Page("Well, it's fun sometimes.", wordspeed, function(){sum.image_index = su
 
 new Page("What do we do here?", wordspeed, function(){mam.image_index = mamEmotion.Neutral; o_vn.talking = 1; }),
 new Page("To explain it to an ancient youkai...", wordspeed, function(){sum.image_index = sumEmotion.Confused; o_vn.talking = 0}),
-new Page("Essentially, each of these unmanned stands hold a different game.", wordspeed, function(){sum.image_index = sumEmotion.Happy}),
-new Page("Most of them are solitaire, but all of them are competetive element.", wordspeed, function(){}),
+new Page("Essentially, each of these unmanned stands hold\na different game.", wordspeed, function(){sum.image_index = sumEmotion.Happy}),
+new Page("Most of them are solitaire,\nbut all of them have competetive elements.", wordspeed, function(){}),
 new Page("\"Do better than your friend\" and the like.", wordspeed, function(){}),
 new Page("'Zat so?", wordspeed, function(){mam.image_index = mamEmotion.Mild; o_vn.talking = 1}),
 new Page("If danmaku's a game, you could say I'm pretty good at them.", wordspeed, function(){mam.image_index = mamEmotion.Smug2}),

@@ -24,7 +24,7 @@ new Page("You picked it up pretty easily.\nHave you played a video game before?"
 new Page("Not even once.", wordspeed, function(){mam.image_index = mamEmotion.Smug2; talking = 1}),
 new Page("Hm.\nAnyway, next up is a music game.", wordspeed, function(){sum.image_index = sumEmotion.Confused;talking = 0}),
 new Page("We can play at the same time on this!", wordspeed, function(){sum.image_index = sumEmotion.Happy; talking = 0}),
-new Page("This might be a bit less intuitive for you, but it should make sense.", wordspeed, function(){talking = 0}),
+new Page("This might be a bit less intuitive for you,\nbut it should make sense.", wordspeed, function(){talking = 0}),
 new Wait(20,function(){room = fantasy_heaven})
 
 

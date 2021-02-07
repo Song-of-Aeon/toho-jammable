@@ -35,7 +35,7 @@ function f_smparse(thesong) {
 	freezer = 0;
 	lanes = o_melodychaser.lanes;
 	log("lol");
-	log(song);
+	//log(song);
 	log("lol");
 
 	while position <= string_length(song) {
@@ -215,7 +215,7 @@ function f_smparse(thesong) {
 	    placer += 1/notemaker[9];
 	    amount += 1;
 	}
-	console_log(instance_number(o_note));
+	//console_log(instance_number(o_note));
 	o_melodychaser.notecount = instance_number(o_note);
 	o_melodychaser.notecount += instance_number(o_tail)/5;
 }

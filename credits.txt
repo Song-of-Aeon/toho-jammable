@@ -10,5 +10,4 @@ StepMania - Mapping for rhythm minigame
 JynX - Scissors shottype concept (funny Len'en reference)
 Konami - Rhythm minigame concept (this is the second time I've ripped off DDR)
 Koninklijke Philips N.V - like three lines of dialogue (funny zelda cd-i reference)
-
 ZUN - the obvious

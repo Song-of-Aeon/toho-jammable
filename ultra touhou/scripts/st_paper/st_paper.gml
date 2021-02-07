@@ -3,7 +3,7 @@ function st_paper() {
 		var _create = function(this) {
 			this.speed = 4;
 			this.dirrection = 10+(random(40)-20);
-			this.damage = 2;
+			this.damage = 2.5;
 			this.sprite_index = s_bulpaper;
 			this.image_alpha = .5;
 		}
@@ -16,7 +16,7 @@ function st_paper() {
 		var _create = function(this) {
 			this.speed = 4;
 			this.dirrection = 10+(random(40)-20);
-			this.damage = 2;
+			this.damage = 2.5;
 			this.sprite_index = s_bulpaper;
 			this.image_alpha = .5;
 		}
@@ -32,7 +32,7 @@ function st_paper() {
 		repeat(4) {
 			var _create = function(this) {
 				this.speed = 20;
-				this.damage = 2;
+				this.damage = 2.5;
 				this.sprite_index = s_bulpaper;
 				this.image_alpha = .5;
 			}

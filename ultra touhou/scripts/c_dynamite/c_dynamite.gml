@@ -1,6 +1,5 @@
 function c_dynamite() {
-	if count = 0 {
-		boom = false;
+	if count % 200 = 0 && !boom {
 		var _create = function(this) {
 			this.speed = 3;
 			this.direction = -90;
@@ -45,5 +44,5 @@ function c_dynamite() {
 		}
 		Bullet(_step, _create, 640, sin(count)*100+50+10);
 	}
-	hp -= 24;
+	hp -= 36;
 }

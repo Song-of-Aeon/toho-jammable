@@ -5,6 +5,6 @@ function sm_occultcore() {
 		songtxt = songtxt + file_text_readln(songfile) + "\n";
 	}
 	file_text_close(songfile);
-	log(songtxt);
+	//log(songtxt);
 	return songtxt;
 }
