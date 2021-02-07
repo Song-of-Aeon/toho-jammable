@@ -33,3 +33,5 @@ collide = function(){
 		acc = -acc;
 	}	
 }
+
+driftdir = 0;
