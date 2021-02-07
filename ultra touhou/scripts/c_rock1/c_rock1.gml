@@ -10,7 +10,8 @@ function c_rock1() {
 		}
 		var _step = function(this) {
 			this.bitches = collision_point(this.x, this.y, o_danmaku_bullet, false, true);
-			if this.bitches.owner = o_damnakuPlayer {
+			if this.bitches.owner == o_damnakuPlayer.id {
+				
 				this.hp -= this.bitches.damage;
 				instance_destroy(this.bitches);
 			}
