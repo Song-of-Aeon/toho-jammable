@@ -47,7 +47,7 @@ if(!keyboard_check(vk_shift)){
 	driftdir = 0;
 }
 c_timebuster();
-timer += global.truetime/10;
+timer += delta_time/1000000;
 if(drift){
 	acc /= 1.01;	
 }

@@ -1,3 +1,4 @@
+draw_set_font(ft_yeah);
 /// @description Insert description here
 // You can write your code in this editor
 Page = function(_text, _spd, _onFinish)  constructor

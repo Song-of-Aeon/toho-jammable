@@ -1,4 +1,5 @@
 /// @description Insert description here
+draw_set_font(ft_yeah);
 // You can write your code in this editor
 Page = function(_text, _spd, _onFinish)  constructor
 {
@@ -37,7 +38,7 @@ vn = {
 new Page("Gee, it sure is boring around here...", wordspeed, function(){mam.visible = false; sum.image_index = sumEmotion.Confused}),
 new Wait(70,function(){}),
 new Page("Is this the supposed peace all busy students should strive for?", wordspeed, function(){}),
-new Page("I just wonder what the youkai are up to...", wordspeed, function(){sum.image_index = sumEmotion.Smug}),
+new Page("I just wonder what my friends in Gensokyo are up to...", wordspeed, function(){sum.image_index = sumEmotion.Smug}),
 new Wait(70,function(){}),
 
 
