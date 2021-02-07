@@ -34,7 +34,7 @@
     {"id":{"name":"c_fontsinput","path":"scripts/c_fontsinput/c_fontsinput.yy",},"order":10,},
     {"id":{"name":"understale","path":"notes/understale/understale.yy",},"order":0,},
     {"id":{"name":"o_tree","path":"objects/o_tree/o_tree.yy",},"order":3,},
-    {"id":{"name":"c_makeSoulless","path":"scripts/c_makeSoulless/c_makeSoulless.yy",},"order":2,},
+    {"id":{"name":"makeSoulless","path":"scripts/makeSoulless/makeSoulless.yy",},"order":2,},
     {"id":{"name":"m_futatsuiwa_from_arcadia","path":"sounds/m_futatsuiwa_from_arcadia/m_futatsuiwa_from_arcadia.yy",},"order":1,},
     {"id":{"name":"bg_bg","path":"sprites/bg_bg/bg_bg.yy",},"order":5,},
     {"id":{"name":"s_solid","path":"sprites/s_solid/s_solid.yy",},"order":0,},

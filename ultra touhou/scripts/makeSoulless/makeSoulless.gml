@@ -7,7 +7,7 @@ function makeSoulless(func, str){
 		}
 	}
 }
-function removeSoulless(str){
+function destroySoulless(str){
 	if(instance_exists(o_soulless) && ds_map_exists(o_soulless.steps,str)){
 		ds_map_delete(o_soulless.steps, str);
 	}
