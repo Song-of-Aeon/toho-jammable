@@ -31,3 +31,7 @@ y-= lengthdir_y(acc,look_x);
 
 c_timebuster();
 timer += global.truetime/10;
+
+if(audio_sound_get_track_position(music) >  176.612){
+	audio_sound_set_track_position(music, 6.048);
+}
