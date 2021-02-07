@@ -9,6 +9,7 @@
     {"id":{"name":"o_hitfx","path":"objects/o_hitfx/o_hitfx.yy",},"order":26,},
     {"id":{"name":"sum","path":"objects/sum/sum.yy",},"order":6,},
     {"id":{"name":"Sprite30","path":"sprites/Sprite30/Sprite30.yy",},"order":17,},
+    {"id":{"name":"s_hp","path":"sprites/s_hp/s_hp.yy",},"order":9,},
     {"id":{"name":"c_scissors1","path":"scripts/c_scissors1/c_scissors1.yy",},"order":18,},
     {"id":{"name":"o_tail","path":"objects/o_tail/o_tail.yy",},"order":18,},
     {"id":{"name":"o_vn","path":"objects/o_vn/o_vn.yy",},"order":3,},
