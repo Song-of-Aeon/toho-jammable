@@ -1,0 +1,64 @@
+/// @description Insert description here
+// You can write your code in this editor
+Page = function(_text, _spd, _onFinish)  constructor
+{
+	wait = false;
+	text = _text;
+	spd = _spd;
+	onFinish = _onFinish;
+}
+Wait = function(howlong, func) constructor
+{
+	wait = true;
+	text = string_repeat(" ",howlong);
+	spd = 60;
+	onFinish = func
+}
+var wordspeed = 90;
+vn = {
+	pages : 	 [new Wait(0,function(){}),
+new Page("You aren't bad at all.", wordspeed, function(){sum.image_index = sumEmotion.Smug; o_vn.talking = 0}),
+new Page("I wonder how much of that is just because of your biology, though.", wordspeed, function(){ o_vn.talking = 0}),
+new Page("Don't worry about that.", wordspeed, function(){mam.image_index = mamEmotion.Smug; o_vn.talking = 1}),
+new Page("By the way, what does the winner get?", wordspeed, function(){mam.image_index = mamEmotion.Neutral; o_vn.talking = 1}),
+new Page("Of your \"2 out of 3\"?", wordspeed, function(){o_vn.talking = 1}),
+new Page("I said that, but...", wordspeed, function(){sum.image_index = sumEmotion.Confused; o_vn.talking = 0}),
+new Page("Just so you know, I won't accept anything from a tanuki anymore, even if I win.", wordspeed, function(){sum.image_index = sumEmotion.Disappointed; o_vn.talking = 0}),
+new Page("Ah, what a frightened human. A sight for sore eyes.", wordspeed, function(){mam.image_index = mamEmotion.Smug2; o_vn.talking = 1}),
+new Page("But if you win-", wordspeed, function(){sum.image_index = sumEmotion.Happy; o_vn.talking = 0}),
+new Page("Nah.", wordspeed, function(){mam.image_index = mamEmotion.Sans; o_vn.talking = 1}),
+new Page("Nah?", wordspeed, function(){sum.image_index = sumEmotion.Surprised; o_vn.talking = 0}),
+new Page("Meaningless games are fine by me. Nothing you could give me that I couldn't get myself, anyway.", wordspeed, function(){mam.image_index = mamEmotion.Smug; o_vn.talking = 1}),
+new Page("Very well", wordspeed, function(){sum.image_index = sumEmotion.Smug; o_vn.talking = 0}),
+new Page("Next game is a...", wordspeed, function(){o_vn.talking = 0}),
+new Page("Wait, do you know what a car is?", wordspeed, function(){sum.image_index = sumEmotion.Confused; o_vn.talking = 0}),
+new Page("Whells, metal, moves. That about right?", wordspeed, function(){o_vn.talking = 1}),
+new Page("That's probably enough.\nThe game is a race using cars.", wordspeed, function(){o_vn.talking = 0}),
+new Page("Now that I've flown, they kind of seem useless, though. Cars, that is.", wordspeed, function(){sum.image_index = sumEmotion.Smug2; o_vn.talking = 0}),
+new Page("Humans shouldn't get too used to leaving the ground.\nEventually, you won't be able to know it again until your death.", wordspeed, function(){mam.image_index = mamEmotion.Smug2; o_vn.talking = 1}),
+new Page("What is that supposed to be about, Icarus? I know my limits.", wordspeed, function(){sum.image_index = sumEmotion.Confused; o_vn.talking = 0}),
+new Page("Then on with the games.", wordspeed, function(){mam.image_index = mamEmotion.Sans; o_vn.talking = 1}),
+new Wait(20,function(){room = room_racer})
+
+
+
+
+
+/*
+new Page("", wordspeed, function(){o_vn.talking = 0}),
+new Page("", wordspeed, function(){o_vn.talking = 1}),
+new Page("", wordspeed, function(){sum.image_index = sumEmotion.; o_vn.talking = 0}),
+new Page("", wordspeed, function(){mam.image_index = mamEmotion.; o_vn.talking = 1}),
+new Wait(20,function(){}),
+*/
+
+//talking 0 = sum, 1 = mam
+],
+	onPage:  0,
+	onWord: 0,
+	onFinish : function(){room = room_danmaku}
+}
+reading = true;
+draw_set_font(ft_ronaldo);
+talking = 0;
+
