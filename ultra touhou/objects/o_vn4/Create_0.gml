@@ -38,13 +38,10 @@ new Wait(20,function(){
 	new Wait(0, function(){
 		
 		var inst = instance_create(200,200,Object44);
-		try{
+		
 		if(global.chungus >= 2){inst.sprite_index = ending_good};
 		else{ inst.sprite_index = ending_bad};
-		}
-		catch(e){
-			inst.sprite_index = ending_bad
-		}
+
 	}),
 new Wait(200,function(){}),
 new Wait(0,function(){room = thetitle;}),
