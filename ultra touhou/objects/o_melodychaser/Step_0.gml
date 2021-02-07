@@ -1,15 +1,17 @@
 c_fontsinput();
 
 if !danced {
-    if select {
-        songstarting = true;
+    if loading = false {
+		loading = true;
+    } else {
+		f_smparse(c_occultcore);
 		danced = true;
-        f_smparse(c_occultcore);
-    }
+		songstarting = true;
+		loading = false;
+	}
     
 
 }
-
 if songstarting {
     timecounter += delta_time;
     if timecounter/1000 >= offset {

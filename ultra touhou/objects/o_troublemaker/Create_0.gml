@@ -58,3 +58,4 @@ pleft = noone;
 pdown = noone;
 pup = noone;
 offfset = 0;
+loading = false;

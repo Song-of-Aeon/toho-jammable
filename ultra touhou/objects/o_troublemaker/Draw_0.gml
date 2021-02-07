@@ -30,3 +30,4 @@ for (l=0; l<floor(hp); l++) {
 draw_text_transformed_colour(lanedown+lanespacing/4, bar+230, string(combo), floor(combo/100)/10+1.5, floor(combo/100)/10+1.5, 0, combocolour[0], combocolour[1], combocolour[2], combocolour[3], infoalpha);
 draw_sprite_ext(s_judgement, noterank+3, lanedown+lanespacing/4, bar+150, bop[8], bop[8], noterank, c_white, infoalpha);
 
+draw_set_halign(fa_left);
