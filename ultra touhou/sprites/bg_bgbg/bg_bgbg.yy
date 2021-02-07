@@ -73,6 +73,8 @@
   },
   "resourceVersion": "1.0",
   "name": "bg_bgbg",
-  "tags": [],
+  "tags": [
+    "tag",
+  ],
   "resourceType": "GMSprite",
 }

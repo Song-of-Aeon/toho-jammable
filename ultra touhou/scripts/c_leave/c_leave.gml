@@ -8,4 +8,5 @@ function c_leave() {
 	} else {
 			room = 	room_vn2;
 	}
+	instance_create(x+random(100),y+random(100),boomer);
 }
