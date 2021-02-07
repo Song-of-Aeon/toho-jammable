@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "torii",
-    "path": "sprites/torii/torii.yy",
+    "name": "shrubbery6",
+    "path": "sprites/shrubbery6/shrubbery6.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -21,8 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"lapper","path":"objects/lapper/lapper.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_racer","path":"objects/o_racer/o_racer.yy",},"parent":{"name":"lapper","path":"objects/lapper/lapper.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"fucken_rock","path":"objects/fucken_rock/fucken_rock.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +30,7 @@
     "path": "folders/Raceism.yy",
   },
   "resourceVersion": "1.0",
-  "name": "lapper",
+  "name": "fucken_rock",
   "tags": [],
   "resourceType": "GMObject",
 }

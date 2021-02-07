@@ -1,5 +1,5 @@
 {
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
   "origin": 1,
@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 16,
-  "bbox_right": 26,
-  "bbox_top": 1,
-  "bbox_bottom": 11,
+  "bbox_left": 5,
+  "bbox_right": 36,
+  "bbox_top": 0,
+  "bbox_bottom": 17,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"65310e8d-662f-457c-a879-a4b07ef54fa9","path":"sprites/s_car/s_car.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"65310e8d-662f-457c-a879-a4b07ef54fa9","path":"sprites/s_car/s_car.yy",},"LayerId":{"name":"b5839fdf-0ec7-4574-a62c-e3a7dca3b8ad","path":"sprites/s_car/s_car.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_car","path":"sprites/s_car/s_car.yy",},"resourceVersion":"1.0","name":"65310e8d-662f-457c-a879-a4b07ef54fa9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f1d9b812-0958-4e7c-9983-e0e8576d7d5c","path":"sprites/car_full_right/car_full_right.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f1d9b812-0958-4e7c-9983-e0e8576d7d5c","path":"sprites/car_full_right/car_full_right.yy",},"LayerId":{"name":"1f02ef41-79d5-404f-b180-bbb6aa66d718","path":"sprites/car_full_right/car_full_right.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"car_full_right","path":"sprites/car_full_right/car_full_right.yy",},"resourceVersion":"1.0","name":"f1d9b812-0958-4e7c-9983-e0e8576d7d5c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_car","path":"sprites/s_car/s_car.yy",},
+    "spriteId": {"name":"car_full_right","path":"sprites/car_full_right/car_full_right.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d8b7f5f3-404d-421a-8f48-83935ced3bf3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"65310e8d-662f-457c-a879-a4b07ef54fa9","path":"sprites/s_car/s_car.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"77a7e5df-3003-49d9-a539-dbd8ce264010","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f1d9b812-0958-4e7c-9983-e0e8576d7d5c","path":"sprites/car_full_right/car_full_right.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_car","path":"sprites/s_car/s_car.yy",},
+    "parent": {"name":"car_full_right","path":"sprites/car_full_right/car_full_right.yy",},
     "resourceVersion": "1.3",
-    "name": "s_car",
+    "name": "car_full_right",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b5839fdf-0ec7-4574-a62c-e3a7dca3b8ad","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1f02ef41-79d5-404f-b180-bbb6aa66d718","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Raceism",
     "path": "folders/Raceism.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_car",
+  "name": "car_full_right",
   "tags": [],
   "resourceType": "GMSprite",
 }

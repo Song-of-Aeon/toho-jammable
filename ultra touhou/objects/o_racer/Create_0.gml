@@ -25,3 +25,13 @@ global.truetime = c_timebuster();
 
 audio_stop_all();
 music = audio_play_sound(m_youkai_racetrack, 10, false);
+
+collide = function(){
+	if other.solid = true
+	{
+		acc = acc/10;
+		acc = -acc;
+	}	
+}
+
+driftdir = 0;

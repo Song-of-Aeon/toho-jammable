@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "torii",
-    "path": "sprites/torii/torii.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,8 +18,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"lapper","path":"objects/lapper/lapper.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_racer","path":"objects/o_racer/o_racer.yy",},"parent":{"name":"lapper","path":"objects/lapper/lapper.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"shrubbery","path":"objects/shrubbery/shrubbery.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"shrubbery","path":"objects/shrubbery/shrubbery.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +28,7 @@
     "path": "folders/Raceism.yy",
   },
   "resourceVersion": "1.0",
-  "name": "lapper",
+  "name": "shrubbery",
   "tags": [],
   "resourceType": "GMObject",
 }
