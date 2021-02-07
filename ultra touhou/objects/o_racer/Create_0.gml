@@ -18,7 +18,7 @@ camera_set_update_script(view_camera[0], function (){});
 
 half = false
 surface_resize(application_surface,320,200);
-drifting = false;
+drift = false;
 timer = 0;
 lap = 0;
 global.truetime = c_timebuster();
