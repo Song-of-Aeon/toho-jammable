@@ -25,7 +25,7 @@ new Page("Not even once.", wordspeed, function(){mam.image_index = mamEmotion.Sm
 new Page("Hm.\nAnyway, next up is a music game.", wordspeed, function(){sum.image_index = sumEmotion.Confused;talking = 0}),
 new Page("We can play at the same time on this!", wordspeed, function(){sum.image_index = sumEmotion.Happy; talking = 0}),
 new Page("This might be a bit less intuitive for you,\nbut it should make sense.", wordspeed, function(){talking = 0}),
-new Wait(200,function(){instance_create(0,0,Object44).sprite_index = font}),
+//new Wait(200,function(){instance_create(0,0,Object44).sprite_index = font}),
 new Wait(20,function(){room = fantasy_heaven})
 
 

@@ -17,6 +17,7 @@
     {"id":{"name":"shitbox","path":"sprites/shitbox/shitbox.yy",},"order":17,},
     {"id":{"name":"c_scissors1","path":"scripts/c_scissors1/c_scissors1.yy",},"order":18,},
     {"id":{"name":"o_tail","path":"objects/o_tail/o_tail.yy",},"order":18,},
+    {"id":{"name":"Object44","path":"objects/Object44/Object44.yy",},"order":21,},
     {"id":{"name":"o_vn","path":"objects/o_vn/o_vn.yy",},"order":3,},
     {"id":{"name":"d3d","path":"scripts/d3d/d3d.yy",},"order":2,},
     {"id":{"name":"s_sunset","path":"sprites/s_sunset/s_sunset.yy",},"order":11,},
