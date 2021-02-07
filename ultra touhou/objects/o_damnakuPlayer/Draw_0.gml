@@ -1,9 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(invuln){
-	//draw_set_color(c_gray);	
+	image_blend = (c_gray);
+} else {
+	image_blend = c_white;
 }
-//draw_self();
+draw_self();
 //draw_set_color(c_white)
 
 

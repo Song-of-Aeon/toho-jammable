@@ -1,11 +1,14 @@
 
 
 if !danced {
-    if o_melodychaser.danced {
-        songstarting = true;
+    if loading = false {
+		loading = true;
+    } else {
+		f_evilparse(c_occultcore);
 		danced = true;
-        f_evilparse(c_occultcore);
-    }
+		songstarting = true;
+		loading = false;
+	}
     
 
 }
