@@ -47,13 +47,13 @@ new Wait(50,function(){mam.image_alpha = 1; destroySoulless("mamAppear");}),
 new Wait(20,function(){}),
 new Page("That person...", wordspeed, function(){}),
 new Wait(20,function(){}),
-new Page("She's one of the youkai who tried to stop me from entering Gensokyo, isn't she?", wordspeed, function(){}),
+new Page("She's one of the youkai who tried to stop me from\nentering Gensokyo, isn't she?", wordspeed, function(){}),
 new Page("I wonder why she's here...?", wordspeed, function(){sum.image_index = sumEmotion.Confused}),
 new Wait(20,function(){}),
 
 new Page("Could it be!?\nThe youkai had been infiltrating Earth this whole time!?", wordspeed, function(){sum.image_index = sumEmotion.Surprised}),
 new Page("...Doesn't involve me, though.\nI can hold my own against them if I have to.", wordspeed, function(){sum.image_index = sumEmotion.Smug}),
-new Page("I'll just say hi.", wordspeed, function(){sum.image_index = sumEmotion.Smug2}),
+new Page("I'll just say hello.", wordspeed, function(){sum.image_index = sumEmotion.Smug2}),
 new Wait(70,function(){}),
 
 //move toward center
@@ -69,12 +69,12 @@ new Page("Couldja at least try to use my name, high-school girl?", wordspeed, fu
 new Page("I can't use what I don't have. And for the record, I-", wordspeed, function(){sum.image_index = sumEmotion.Confused; o_vn.talking = 0}),
 new Page("Just a joke. Sumireko, isn't it?", wordspeed, function(){mam.image_index = mamEmotion.Smug; o_vn.talking = 1}),
 new Page("Mamizou Futatsuiwa here. Pleasure to meetcha proper.", wordspeed, function(){}),
-new Page("I'm not sure I want to hear that from someone who tried to kill me...", wordspeed, function(){sum.image_index = sumEmotion.Disappointed; o_vn.talking = 0}),
+new Page("Weird to hear that from someone who tried to kill me...", wordspeed, function(){sum.image_index = sumEmotion.Disappointed; o_vn.talking = 0}),
 new Page("Ah, hogwash. That's just danmaku play.", wordspeed, function(){mam.image_index = mamEmotion.Smug; o_vn.talking = 1}),
 new Page("Made it out in the end anyway, didn'tcha?", wordspeed, function(){mam.image_index = mamEmotion.Sans}),
-new Page("You approached me today. Got something to say?", wordspeed, function(){mam.image_index = mamEmotion.Neutral}),
+new Page("You approached me today.\nGot something to say?", wordspeed, function(){mam.image_index = mamEmotion.Neutral}),
 new Page("Hm... not in particular.", wordspeed, function(){sum.image_index = sumEmotion.Happy; o_vn.talking = 0}),
-new Page("I just remembered you asked for a tour of the outside world during that incident, though.", wordspeed, function(){}),
+new Page("I just remembered you asked for a tour of the outside\nduring that incident, though.", wordspeed, function(){}),
 new Page("Care to join me for a bit of modern entertainment?", wordspeed, function(){sum.image_index = sumEmotion.Smug}),
 
 new Page("I got this impression before, but...", wordspeed, function(){o_vn.talking = 1}),
@@ -100,7 +100,7 @@ new Page("Uh do you even want to be here?", wordspeed, function(){mam.image_inde
 new Page("Well, it's fun sometimes.", wordspeed, function(){sum.image_index = sumEmotion.Happy; o_vn.talking = 0}),
 
 new Page("What do we do here?", wordspeed, function(){mam.image_index = mamEmotion.Neutral; o_vn.talking = 1; }),
-new Page("To explain it to an ancient youkai...", wordspeed, function(){mam.image_index = mamEmotion.Confused; o_vn.talking = 0}),
+new Page("To explain it to an ancient youkai...", wordspeed, function(){sum.image_index = sumEmotion.Confused; o_vn.talking = 0}),
 new Page("Essentially, each of these unmanned stands hold a different game.", wordspeed, function(){sum.image_index = sumEmotion.Happy}),
 new Page("Most of them are solitaire, but all of them are competetive element.", wordspeed, function(){}),
 new Page("\"Do better than your friend\" and the like.", wordspeed, function(){}),
@@ -129,7 +129,7 @@ new Wait(20,function(){}),*/
 	onFinish : function(){room = room_danmaku}
 }
 reading = true;
-draw_set_font(ft_ronaldo);
+
 
 talking = 0;
 audio_stop_all();

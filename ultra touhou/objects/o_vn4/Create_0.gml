@@ -50,7 +50,6 @@ new Wait(20,function(){}),
 	onFinish : function(){room = room_danmaku}
 }
 reading = true;
-draw_set_font(ft_ronaldo);
 talking = 0;
 
 audio_stop_all();

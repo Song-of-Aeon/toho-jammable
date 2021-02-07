@@ -5,8 +5,11 @@ if !instance_exists(head) {
 layer_add_instance("backy", id);
 
 
-count += global.truetime;
-if count >= 435 {
+if count > 2 {count += global.truetime;
+} else {
+	count += 1;
+}
+if count >= 135 {
     y += vspd*global.truetime;
 }
 
