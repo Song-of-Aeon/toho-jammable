@@ -47,4 +47,5 @@ new Wait(20,function(){}),
 reading = true;
 draw_set_font(ft_ronaldo);
 talking = 0;
-
+audio_stop_all();
+music = audio_play_sound(m_analogue_mirror, 10, false);

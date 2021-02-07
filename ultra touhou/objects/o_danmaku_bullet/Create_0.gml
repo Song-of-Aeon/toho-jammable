@@ -12,3 +12,4 @@ enum rps {
 	paper = 1,
 	scissors = 2
 }
+//damage = 0;

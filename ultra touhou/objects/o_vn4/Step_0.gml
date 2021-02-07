@@ -24,3 +24,7 @@ else{
 		}
 	}
 }
+
+if(audio_sound_get_track_position(music) >  28.875){
+	audio_sound_set_track_position(music, 0.006);
+}
