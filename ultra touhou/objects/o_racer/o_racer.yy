@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "car",
-    "path": "sprites/car/car.yy",
+    "name": "s_car",
+    "path": "sprites/s_car/s_car.yy",
   },
   "solid": false,
   "visible": true,
@@ -33,6 +33,8 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"lapper","path":"objects/lapper/lapper.yy",},"parent":{"name":"o_racer","path":"objects/o_racer/o_racer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,"parent":{"name":"o_racer","path":"objects/o_racer/o_racer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":5,"eventType":7,"collisionObjectId":null,"parent":{"name":"o_racer","path":"objects/o_racer/o_racer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_tree","path":"objects/o_tree/o_tree.yy",},"parent":{"name":"o_racer","path":"objects/o_racer/o_racer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"fucken_rock","path":"objects/fucken_rock/fucken_rock.yy",},"parent":{"name":"o_racer","path":"objects/o_racer/o_racer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
