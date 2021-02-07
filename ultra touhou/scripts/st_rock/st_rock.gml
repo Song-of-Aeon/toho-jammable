@@ -5,6 +5,7 @@ function st_rock() {
 			this.speed = 4;
 			this.direction = 90;
 			this.damage = 6;
+			this.sprite_index = s_bulrock;
 		}
 		var _step = function(this) {
 			this.speed = this.speed*1.1;
@@ -13,6 +14,7 @@ function st_rock() {
 					this.speed = 4;
 					this.direction = 80;
 					this.damage = 6;
+					this.sprite_index = s_bulrock;
 				}
 				var __step = function(this) {
 					this.speed = this.speed*1.1;
@@ -21,6 +23,7 @@ function st_rock() {
 							this.speed = 4;
 							this.direction = 80;
 							this.damage = 6;
+							this.sprite_index = s_bulrock;
 						}
 						var ___step = function(this) {
 							this.speed = this.speed*1.1;
@@ -35,6 +38,7 @@ function st_rock() {
 							this.speed = 4;
 							this.direction = 100;
 							this.damage = 6;
+							this.sprite_index = s_bulrock;
 						}
 						var ___step = function(this) {
 							this.speed = this.speed*1.1;
@@ -58,6 +62,7 @@ function st_rock() {
 					this.speed = 4;
 					this.direction = 100;
 					this.damage = 6;
+					this.sprite_index = s_bulrock;
 				}
 				var __step = function(this) {
 					this.speed = this.speed*1.1;
@@ -66,6 +71,7 @@ function st_rock() {
 							this.speed = 4;
 							this.direction = 80;
 							this.damage = 6;
+							this.sprite_index = s_bulrock;
 						}
 						var ___step = function(this) {
 							this.speed = this.speed*1.1;
@@ -80,6 +86,7 @@ function st_rock() {
 							this.speed = 4;
 							this.direction = 100;
 							this.damage = 6;
+							this.sprite_index = s_bulrock;
 						}
 						var ___step = function(this) {
 							this.speed = this.speed*1.1;
