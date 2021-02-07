@@ -13,6 +13,12 @@ if(lap == 3){
 	draw_set_color(c_white);
 	draw_text(60,30,"\n\nYOUR TIME: " + string(time) + "\n\nBEST TIME: 65.67");
 	if(camheight < -200){
+		if(time < 65.67){
+			instance_create(0,0,o_won);	
+		}
+		else{
+			instance_create(0,0,o_lost);
+		}
 		room = room_vn4;	
 		application_surface_draw_enable(true);
 	}
