@@ -5,6 +5,9 @@ if(c == 0){
 	c = 1;
 }
 step(id);
+if owner = o_damnakuPlayer {
+	image_alpha = .5;
+}
 
 if(y < -100){
 	instance_destroy();
