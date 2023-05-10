@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_Mission_Failed.ogg",
-  "duration": 4.713345,
+  "duration": 4.708345,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

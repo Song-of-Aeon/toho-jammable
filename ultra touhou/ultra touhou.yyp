@@ -213,9 +213,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"room_danmaku","path":"rooms/room_danmaku/room_danmaku.yy",},},
     {"roomId":{"name":"thetitle","path":"rooms/thetitle/thetitle.yy",},},
     {"roomId":{"name":"room_vn","path":"rooms/room_vn/room_vn.yy",},},
-    {"roomId":{"name":"room_danmaku","path":"rooms/room_danmaku/room_danmaku.yy",},},
     {"roomId":{"name":"room_racer","path":"rooms/room_racer/room_racer.yy",},},
     {"roomId":{"name":"fantasy_heaven","path":"rooms/fantasy_heaven/fantasy_heaven.yy",},},
     {"roomId":{"name":"the_abyss","path":"rooms/the_abyss/the_abyss.yy",},},
@@ -266,7 +266,7 @@
     {"CopyToMask":153157610357391598,"filePath":"datafiles","resourceVersion":"1.0","name":"occultcore.txt","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2.3.1.542",
+    "IDEVersion": "2.3.3.574",
   },
   "resourceVersion": "1.4",
   "name": "ultra touhou",

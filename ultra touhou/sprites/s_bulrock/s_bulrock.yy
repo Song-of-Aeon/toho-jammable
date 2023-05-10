@@ -26,7 +26,6 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"e9c25646-426b-4628-a7d8-594c57386d56","path":"sprites/s_bulrock/s_bulrock.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"e9c25646-426b-4628-a7d8-594c57386d56","path":"sprites/s_bulrock/s_bulrock.yy",},"LayerId":{"name":"c9b1540e-22ca-45e4-b92a-dfa22a4406dd","path":"sprites/s_bulrock/s_bulrock.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"e9c25646-426b-4628-a7d8-594c57386d56","path":"sprites/s_bulrock/s_bulrock.yy",},"LayerId":{"name":"acc2d400-e4a3-45ed-99a4-7be53b9ddff6","path":"sprites/s_bulrock/s_bulrock.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"s_bulrock","path":"sprites/s_bulrock/s_bulrock.yy",},"resourceVersion":"1.0","name":"e9c25646-426b-4628-a7d8-594c57386d56","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -68,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c9b1540e-22ca-45e4-b92a-dfa22a4406dd","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "sprites",
     "path": "folders/danmaku/sprites.yy",

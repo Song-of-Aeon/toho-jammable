@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "m_outside_conundrum.ogg",
-  "duration": 104.405205,
+  "duration": 104.400208,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

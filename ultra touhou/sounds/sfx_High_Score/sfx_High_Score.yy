@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_High_Score.ogg",
-  "duration": 5.633617,
+  "duration": 5.628617,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

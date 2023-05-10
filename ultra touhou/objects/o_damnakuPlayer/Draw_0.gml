@@ -1,27 +1,25 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(invuln){
-	image_blend = (c_gray);
-} else {
-	image_blend = c_white;
+	draw_set_color(c_gray);	
 }
 draw_self();
-//draw_set_color(c_white)
+draw_set_color(c_white)
 
 
 if(keyboard_check(ord("Z"))) {
-	draw_sprite(s_janken, 0, 320, 480);
+	draw_sprite(s_janken, 0, 0, 448);
 } else if(keyboard_check(ord("X"))) {
-	draw_sprite(s_janken, 1, 320, 480);
+	draw_sprite(s_janken, 1, 0, 448);
 } else if(keyboard_check(ord("C"))) {
-	draw_sprite(s_janken, 2, 320, 480);
+	draw_sprite(s_janken, 2, 0, 448);
 }
 
 if(focus){
 	draw_set_color(c_red);
-	draw_sprite(shitbox, 0, x, y);
+	draw_circle(x-1,y-1,3,false);	
 	draw_set_color(c_white);
 }
 
-//draw_text(0,0,score);
+draw_text(0,0,score);
 

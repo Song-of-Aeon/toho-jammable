@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "m_youkai_racetrack.ogg",
-  "duration": 180.5196,
+  "duration": 180.5146,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

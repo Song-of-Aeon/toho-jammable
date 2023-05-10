@@ -1,4 +1,3 @@
-draw_set_font(ft_yeah);
 /// @description Insert description here
 // You can write your code in this editor
 Page = function(_text, _spd, _onFinish)  constructor
@@ -18,14 +17,13 @@ Wait = function(howlong, func) constructor
 var wordspeed = 90;
 vn = {
 	pages : 	 [new Wait(0,function(){}),
-new Page("So, what did you think?", wordspeed, function(){sum.image_index = sumEmotion.Happy; talking = 0}),
-new Page("Nothing like the real thing, but that's fine.", wordspeed, function(){mam.image_index = mamEmotion.Smug;talking = 1}),
-new Page("You picked it up pretty easily.\nHave you played a video game before?", wordspeed, function(){sum.image_index = sumEmotion.Surprised; talking = 0}),
-new Page("Not even once.", wordspeed, function(){mam.image_index = mamEmotion.Smug2; talking = 1}),
-new Page("Hm.\nAnyway, next up is a music game.", wordspeed, function(){sum.image_index = sumEmotion.Confused;talking = 0}),
-new Page("We can play at the same time on this!", wordspeed, function(){sum.image_index = sumEmotion.Happy; talking = 0}),
-new Page("This might be a bit less intuitive for you,\nbut it should make sense.", wordspeed, function(){talking = 0}),
-//new Wait(200,function(){instance_create(0,0,Object44).sprite_index = font}),
+new Page("So, what did you think?", wordspeed, function(){sum.image_index = sumEmotion.Happy; o_vn.talking = 0}),
+new Page("Nothing like the real thing, but that's fine.", wordspeed, function(){mam.image_index = mamEmotion.Smug; o_vn.talking = 1}),
+new Page("You picked it up pretty easily. Have you played a video game before?", wordspeed, function(){sum.image_index = sumEmotion.Surprised; o_vn.talking = 0}),
+new Page("Not even once.", wordspeed, function(){mam.image_index = mamEmotion.Smug2; o_vn.talking = 1}),
+new Page("Hm. Anyway, next up is a music game.", wordspeed, function(){sum.image_index = sumEmotion.Confused; o_vn.talking = 0}),
+new Page("We can play at the same time on this!", wordspeed, function(){sum.image_index = sumEmotion.Happy; o_vn.talking = 0}),
+new Page("This might be a bit less intuitive for you, but it should make sense.", wordspeed, function(){o_vn.talking = 0}),
 new Wait(20,function(){room = fantasy_heaven})
 
 
@@ -47,7 +45,6 @@ new Wait(20,function(){}),
 	onFinish : function(){room = room_danmaku}
 }
 reading = true;
-
+draw_set_font(ft_ronaldo);
 talking = 0;
-audio_stop_all();
-music = audio_play_sound(m_outside_conundrum, 10, false);
+

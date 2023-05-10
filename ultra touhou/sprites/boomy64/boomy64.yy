@@ -303,6 +303,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a35b5d13-334f-4f7c-a33d-9d06a2865eb0","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
